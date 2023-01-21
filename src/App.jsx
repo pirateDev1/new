@@ -1,11 +1,11 @@
+import { Main } from "modules/main/components/Main"
 import React from "react"
-import { FirstScreen } from "modules/main/components/FirstScreen"
 import { Button } from "modules/common/ui/Button"
 
 function App() {
     return (
         <div>
-            <FirstScreen />
+            <Main />
             <Button>4len</Button>
         </div>
     )

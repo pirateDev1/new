@@ -1,6 +1,7 @@
 import React from "react"
 import styles from "./Main.module.css"
 import headerImg from "assets/header-image-dark.png"
+import { Button } from "modules/common/ui/Button"
 
 function Main() {
     return (
@@ -33,7 +34,7 @@ function Main() {
                         <p>Государственная образовательная лицензия</p>
                     </div>
                 </div>
-                <button>Записаться</button>
+                <Button>Записаться</Button>
             </div>
         </div>
     )

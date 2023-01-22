@@ -1,4 +1,9 @@
-import { Burger, Main, Education, Staff, Reviews, Form } from "modules"
+import { Form } from "modules"
+import { Burger } from "modules/Burger"
+import { Education } from "modules/education"
+import { Main } from "modules/Main"
+import { Reviews } from "modules/Reviews"
+import { Staff } from "modules/Staff"
 import React from "react"
 
 function App() {

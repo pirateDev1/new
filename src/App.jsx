@@ -1,4 +1,4 @@
-import { Burger, Main, Education, Staff, Reviews } from "modules"
+import { Burger, Main, Education, Staff, Reviews, Form } from "modules"
 import React from "react"
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
             <Education />
             <Staff />
             <Reviews />
+            <Form />
         </div>
     )
 }

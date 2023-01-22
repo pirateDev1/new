@@ -1,0 +1,22 @@
+.wrapper{
+    width: 100vw;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-top: 1px solid grey;
+}
+
+.mainComp{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.companyAdrs{
+    text-align: center;
+}

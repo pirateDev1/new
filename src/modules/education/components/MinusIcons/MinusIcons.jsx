@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./MinusIcons.module.css";
 
-import { AiOutlineMinusCircle, AiFillMinusCircle } from "react-icons/ai";
+import { AiOutlineMinusCircle } from "react-icons/ai";
 
 export default function MinusIcons() {
     return (
@@ -9,7 +9,6 @@ export default function MinusIcons() {
             <AiOutlineMinusCircle
                 className={`${styles.icon} ${styles.outline}`}
             />
-            <AiFillMinusCircle className={`${styles.icon} ${styles.fill}`} />
         </>
     );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./PlusIcons.module.css";
-import { AiOutlinePlusCircle, AiFillPlusCircle } from "react-icons/ai";
+import { AiOutlinePlusCircle } from "react-icons/ai";
 
 export default function PlusIcons() {
     return (
@@ -8,7 +8,6 @@ export default function PlusIcons() {
             <AiOutlinePlusCircle
                 className={`${styles.icon} ${styles.outline}`}
             />
-            <AiFillPlusCircle className={`${styles.icon} ${styles.fill}`} />
         </>
     );
 }

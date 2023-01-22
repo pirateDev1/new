@@ -1,16 +1,17 @@
-import { Burger, Main, Education, Staff, Reviews } from "modules"
-import React from "react"
+import { Burger, Main, Education, Staff, Reviews, Footer } from "modules";
+import React from "react";
 
 function App() {
     return (
         <div>
-            <Burger />
+            {/* <Burger />
             <Main />
             <Education />
             <Staff />
-            <Reviews />
+            <Reviews /> */}
+            <Footer />
         </div>
-    )
+    );
 }
 
-export default App
+export default App;

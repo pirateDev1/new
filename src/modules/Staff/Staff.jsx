@@ -1,5 +1,5 @@
 import React from "react"
-import { StaffSwiper } from "../StaffSwiper"
+import { StaffSwiper } from "./components/StaffSwiper"
 import styles from "./Staff.module.css"
 
 function Staff() {

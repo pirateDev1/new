@@ -1,5 +1,5 @@
 import React from "react"
-import { ReviewsSwiper } from "../ReviewsSwiper"
+import { ReviewsSwiper } from "./components/ReviewsSwiper"
 import styles from "./Reviews.module.css"
 
 function Reviews() {

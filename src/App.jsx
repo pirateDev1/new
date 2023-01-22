@@ -1,13 +1,12 @@
-import { Main } from "modules/main/components/Main"
-import { Reviews } from "modules/reviews/components/Reviews"
-import { Staff } from "modules/staff/components/Staff"
-import { Form } from "modules/Form"
+import { Burger, Main, Education, Staff, Reviews } from "modules"
 import React from "react"
 
 function App() {
     return (
         <div>
+            <Burger />
             <Main />
+            <Education />
             <Staff />
             <Reviews />
             <Form />

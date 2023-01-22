@@ -1,0 +1,15 @@
+.icon {
+    color: var(--color-accent);
+    width: 43px;
+    height: 43px;
+    cursor: pointer;
+}
+
+.iconContainer:hover .outline,
+.iconContainer .fill {
+    display: none;
+}
+
+.iconContainer:hover .fill {
+    display: inline;
+}

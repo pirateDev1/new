@@ -23,7 +23,7 @@ const contentAnimation = {
 export const Layout = ({ onClose, children, opened, innerClassName }) => {
     const overlayRef = useRef()
     const contentRef = useRef()
-    console.log(innerClassName)
+
     const [animationIn, setAnimationIn] = useState(false)
 
     useEffect(() => {

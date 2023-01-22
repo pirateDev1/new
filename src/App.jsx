@@ -1,5 +1,11 @@
-import { Burger, Main, Education, Staff, Reviews, Form } from "modules"
 import React from "react"
+import { Form } from "modules/Form"
+import { Burger } from "modules/Burger"
+import { Education } from "modules/education"
+import { Main } from "modules/Main"
+import { Reviews } from "modules/Reviews"
+import { Staff } from "modules/Staff"
+import { Footer } from "modules/Footer"
 
 function App() {
     return (
@@ -10,6 +16,7 @@ function App() {
             <Staff />
             <Reviews />
             <Form />
+            <Footer />
         </div>
     )
 }

@@ -1,11 +1,12 @@
 import React, { useState } from "react"
+import { ReviewHeader } from "../ReviewHeader"
 import { ReviewModal } from "../ReviewModal"
 import styles from "./ReviewsSwiperSlide.module.css"
 
 function ReviewsSwiperSlide({ data }) {
     const [showReviewModal, setShowReviewModal] = useState(false)
 
-    const { img, name, description, review } = data
+    const { review } = data
 
     function clickHandler() {
         setShowReviewModal(true)
@@ -13,23 +14,12 @@ function ReviewsSwiperSlide({ data }) {
     return (
         <>
             <ReviewModal
-                review={review}
+                data={data}
                 showReviewModal={showReviewModal}
                 setShowReviewModal={setShowReviewModal}
             />
             <div className={styles.container} onClick={clickHandler}>
-                <div className={styles.header}>
-                    <div
-                        className={styles.avatar}
-                        style={{
-                            backgroundImage: `url(${img})`,
-                        }}
-                    ></div>
-                    <div className={styles.info}>
-                        <h5>{name}</h5>
-                        <p>{description}</p>
-                    </div>
-                </div>
+                <ReviewHeader data={data} />
                 <div className={styles.review}>
                     <p
                         dangerouslySetInnerHTML={{

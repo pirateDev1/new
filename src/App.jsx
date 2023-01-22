@@ -1,3 +1,4 @@
+import { Form } from "modules"
 import { Burger } from "modules/Burger"
 import { Education } from "modules/education"
 import { Main } from "modules/Main"
@@ -13,6 +14,7 @@ function App() {
             <Education />
             <Staff />
             <Reviews />
+            <Form />
         </div>
     )
 }

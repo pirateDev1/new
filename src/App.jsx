@@ -1,4 +1,4 @@
-import { Form } from "modules"
+import { Form } from "modules/Form"
 import { Burger } from "modules/Burger"
 import { Education } from "modules/education"
 import { Main } from "modules/Main"

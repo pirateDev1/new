@@ -7,8 +7,8 @@ function Reviews() {
         <div className={styles.wrapper}>
             <div className={styles.container}>
                 <h2>Что о нас говорят студенты?</h2>
+                <ReviewsSwiper />
             </div>
-            <ReviewsSwiper />
         </div>
     )
 }

@@ -6,8 +6,8 @@ import React from "react"
 function App() {
     return (
         <div>
-            {/* <Main /> */}
-            {/* <Staff /> */}
+            <Main />
+            <Staff />
             <Reviews />
         </div>
     )

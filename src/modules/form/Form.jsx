@@ -5,7 +5,8 @@ import { Button } from "modules/common/ui/Button";
 export default function Form() {
     function submited(event) {
         event.preventDefault();
-        console.log("dsadsa");
+        let info = document.querySelector("input").value;
+        console.log(info);
     }
 
     return (

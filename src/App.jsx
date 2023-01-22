@@ -1,7 +1,7 @@
 import { Main } from "modules/main/components/Main";
 import { Reviews } from "modules/reviews/components/Reviews";
 import { Staff } from "modules/staff/components/Staff";
-import { Form } from "modules/form";
+import { Form } from "modules/Form";
 import React from "react";
 
 function App() {

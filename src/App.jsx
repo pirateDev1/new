@@ -5,7 +5,7 @@ import { Education } from "modules/education"
 import { Main } from "modules/Main"
 import { Reviews } from "modules/Reviews"
 import { Staff } from "modules/Staff"
-import { Footer } from "modules"
+import { Footer } from "modules/Footer"
 
 function App() {
     return (

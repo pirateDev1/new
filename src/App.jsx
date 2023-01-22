@@ -1,6 +1,6 @@
 import { Burger } from "modules/burger/components/Burger"
 import { Main } from "modules/main/components/Main"
-import { Education } from "modules/Education"
+import { Education } from "modules/education"
 import { Reviews } from "modules/reviews/components/Reviews"
 import { Staff } from "modules/staff/components/Staff"
 import React from "react"

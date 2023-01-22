@@ -1,19 +1,26 @@
-import React, { useState } from "react";
-import styles from "./Form.module.css";
-import { Button } from "modules/common/ui/Button";
+import React, { useState } from "react"
+import styles from "./Form.module.css"
+import { Button } from "modules/common/ui/Button"
+import { GratitudeModal } from "modules/GratitudeModal"
 
 export default function Form() {
-    const [name, setName] = useState("");
-    const [tel, setTel] = useState("");
+    const [name, setName] = useState("")
+    const [tel, setTel] = useState("")
+    const [showGratitudeModal, setShowGratitudeModal] = useState(false)
 
-    function submited(event) {
-        event.preventDefault();
-        console.log(name, tel);
+    function submitHandler(event) {
+        event.preventDefault()
+        console.log(name, tel)
+        setShowGratitudeModal(true)
     }
 
     return (
         <div className={styles.formWrapper}>
-            <form onSubmit={submited} className={styles.container}>
+            <GratitudeModal
+                showGratitudeModal={showGratitudeModal}
+                setShowGratitudeModal={setShowGratitudeModal}
+            />
+            <form onSubmit={submitHandler} className={styles.container}>
                 <p className={styles.title}>Оставить заявку</p>
                 <input
                     className={styles.inputs}
@@ -32,5 +39,5 @@ export default function Form() {
                 <Button className={styles.btn}>Записаться</Button>
             </form>
         </div>
-    );
+    )
 }

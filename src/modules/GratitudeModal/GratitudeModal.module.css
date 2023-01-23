@@ -1,7 +1,8 @@
 .container {
     max-width: 250px;
     min-height: 200px;
-    background-color: whitesmoke;
+    background-color: var(--modal-bg);
+    color: var(--modal-text);
     display: flex;
     flex-direction: column;
     justify-content: center;

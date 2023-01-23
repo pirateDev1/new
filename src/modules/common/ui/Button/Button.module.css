@@ -1,16 +1,17 @@
-.btn{
+.btn {
     min-height: 40px;
     width: 100%;
     border: 1px solid var(--primary-color);
     border-radius: 5px;
-    font-family:var(--ff-primary);
+    font-family: var(--ff-primary);
     font-size: var(--fs-h5);
     font-weight: var(--fw-bold);
-    color: var(--secondary-color);
+    color: var(--base-color);
     background-color: var(--primary-color);
     cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: var(--hover-btn-color);
+    border-color: var(--hover-btn-color);
 }

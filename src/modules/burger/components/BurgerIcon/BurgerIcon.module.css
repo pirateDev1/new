@@ -40,7 +40,7 @@
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--primary-color);
+    background: var(--base-color);
     width: 2em;
     height: 3px;
     border-radius: 1em;

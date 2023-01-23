@@ -24,6 +24,14 @@
     padding: 1em;
 }
 
+.smallText {
+    color: var(--primary-color);
+}
+
+.accent {
+    color: var(--secondary-color);
+}
+
 .license {
     display: flex;
     align-items: center;

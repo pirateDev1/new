@@ -16,8 +16,8 @@ function Main() {
                         Гибридное образование с практическим уклоном
                     </p>
                     <h2>
-                        Обучаем цифровым профессиям будущего
-                        <span>в сфере Web 3.0</span>
+                        Обучаем цифровым профессиям будущего <br />
+                        <span className={styles.accent}>в сфере Web 3.0</span>
                     </h2>
                     <div className={styles.license}>
                         <img

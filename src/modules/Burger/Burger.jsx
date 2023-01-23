@@ -7,8 +7,8 @@ function Burger() {
     const [showBurger, setShowBurger] = useState(false)
     return (
         <div className={styles.wrapper}>
-            <BurgerIcon showBurger={showBurger} setShowBurger={setShowBurger} />
             <BurgerNav showBurger={showBurger} setShowBurger={setShowBurger} />
+            <BurgerIcon showBurger={showBurger} setShowBurger={setShowBurger} />
         </div>
     )
 }

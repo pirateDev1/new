@@ -7,19 +7,21 @@ export default function Education() {
     const [selectedOption, setSelectedOption] = useState(0)
 
     return (
-        <section className={styles.container}>
-            <h2 className={styles.title}>Программа обучения</h2>
-            <ul className={styles.content}>
-                {educationData.map((item, index) => (
-                    <EducationDescription
-                        key={item.id}
-                        data={item}
-                        index={index}
-                        selectedOption={selectedOption}
-                        setSelectedOption={setSelectedOption}
-                    />
-                ))}
-            </ul>
-        </section>
+        <div className={styles.wrapper}>
+            <div className={styles.container}>
+                <h2 className={styles.title}>Программа обучения</h2>
+                <ul className={styles.content}>
+                    {educationData.map((item, index) => (
+                        <EducationDescription
+                            key={item.id}
+                            data={item}
+                            index={index}
+                            selectedOption={selectedOption}
+                            setSelectedOption={setSelectedOption}
+                        />
+                    ))}
+                </ul>
+            </div>
+        </div>
     )
 }

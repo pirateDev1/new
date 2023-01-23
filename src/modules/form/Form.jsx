@@ -15,29 +15,31 @@ export default function Form() {
     }
 
     return (
-        <div className={styles.formWrapper}>
-            <GratitudeModal
-                showGratitudeModal={showGratitudeModal}
-                setShowGratitudeModal={setShowGratitudeModal}
-            />
-            <form onSubmit={submitHandler} className={styles.container}>
-                <p className={styles.title}>Оставить заявку</p>
-                <input
-                    className={styles.inputs}
-                    type="text"
-                    value={name}
-                    onChange={e => setName(e.target.value)}
-                    placeholder="Введите Ваше имя"
+        <div className={styles.wrapper}>
+            <div className={styles.container}>
+                <GratitudeModal
+                    showGratitudeModal={showGratitudeModal}
+                    setShowGratitudeModal={setShowGratitudeModal}
                 />
-                <input
-                    className={styles.inputs}
-                    type="number"
-                    value={tel}
-                    onChange={e => setTel(e.target.value)}
-                    placeholder="Введите Ваш телефон"
-                />
-                <Button className={styles.btn}>Записаться</Button>
-            </form>
+                <form onSubmit={submitHandler} className={styles.form}>
+                    <p className={styles.title}>Оставить заявку</p>
+                    <input
+                        className={styles.inputs}
+                        type="text"
+                        value={name}
+                        onChange={e => setName(e.target.value)}
+                        placeholder="Введите Ваше имя"
+                    />
+                    <input
+                        className={styles.inputs}
+                        type="number"
+                        value={tel}
+                        onChange={e => setTel(e.target.value)}
+                        placeholder="Введите Ваш телефон"
+                    />
+                    <Button className={styles.btn}>Записаться</Button>
+                </form>
+            </div>
         </div>
     )
 }

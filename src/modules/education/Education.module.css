@@ -1,12 +1,9 @@
 .container {
-    padding: 0 30px;
-    width: 100%;
-    max-width: 1200px;
-    height: fit-content;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    background-color: var(--color-background);
-    color: var(--color-primary);
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--base-bg-color);
+    color: var(--base-color);
+    padding: 20px;
 }
 
 .title {

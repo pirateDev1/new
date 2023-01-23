@@ -1,5 +1,7 @@
 .wrapper {
     min-height: 100vh;
+    background-color: var(--base-bg-color);
+    color: var(--base-color);
 }
 
 .container {

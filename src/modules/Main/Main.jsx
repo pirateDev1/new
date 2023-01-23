@@ -2,6 +2,7 @@ import React from "react"
 import styles from "./Main.module.css"
 import headerImg from "assets/header-image-dark.png"
 import { Button } from "modules/common/ui/Button"
+import { CustomLicense } from "./components/CustomLicense"
 
 function Main() {
     return (
@@ -19,13 +20,7 @@ function Main() {
                         Обучаем цифровым профессиям будущего
                         <span>в сфере Web 3.0</span>
                     </h2>
-                    <div className={styles.license}>
-                        <img
-                            src="https://static.tildacdn.com/tild3666-6137-4266-a263-366661646262/smalllogo.svg"
-                            alt=""
-                        />
-                        <p>Государственная образовательная лицензия</p>
-                    </div>
+                    <CustomLicense />
                     <div className={styles.license}>
                         <img
                             src="https://static.tildacdn.com/tild3666-6137-4266-a263-366661646262/smalllogo.svg"

@@ -23,23 +23,3 @@
 .infoContainer {
     padding: 1em;
 }
-
-.license {
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-
-.license p {
-    max-width: 150px;
-    letter-spacing: 1px;
-    font-size: 15px;
-}
-
-.license img {
-    filter: invert(0%) sepia(6%) saturate(513%) hue-rotate(89deg)
-        brightness(82%) contrast(87%);
-    width: 100%;
-    max-width: 50px;
-    margin-right: 1em;
-}

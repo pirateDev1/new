@@ -20,6 +20,9 @@ img {
     --secondary-color: #00dd99;
     --hover-btn-color: rgb(92, 125, 223);
 
+    --module-text: #000;
+    --module-bg: #fff;
+
     --fs-h1: 24px;
     --fs-h2: 22px;
     --fs-h3: 20px;

@@ -1,23 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
-:root{
-    --ff-primary: 'Montserrat';
+:root {
+    --ff-primary: "Montserrat";
 
     --fw-reg: 400;
     --fw-bold: 700;
-    
-    --base-color: black;
-    --secondary-color: white;
-    --base-bg-color: white;
-    --primary-color: royalblue;
+
+    --base-color: #fff;
+    --base-bg-color: #0b0b22;
+    --primary-color: #11bbff;
+    --secondary-color: #00dd99;
     --hover-btn-color: rgb(92, 125, 223);
 
     --fs-h1: 24px;
@@ -26,8 +26,6 @@ img{
     --fs-h4: 18px;
     --fs-h5: 16px;
     --small-text: 12px;
-    
+
     --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
 }
-

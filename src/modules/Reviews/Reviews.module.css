@@ -1,8 +1,11 @@
 .wrapper {
     background-color: var(--base-bg-color);
-    color: var(--base-color);
 }
 
 .container {
     padding: 2em;
+}
+
+.title {
+    color: var(--base-color);
 }

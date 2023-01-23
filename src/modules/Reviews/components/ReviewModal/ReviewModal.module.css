@@ -5,7 +5,7 @@
     right: 0;
     left: 0;
     background-color: var(--modal-bg);
-
+    color: var(--modal-text);
     z-index: 100;
 }
 

@@ -4,26 +4,28 @@ export const staffData = [
     {
         id: 1,
         img: staff1,
-        name: "Мария Аграновская",
-        description:
-            "aaaaa aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        name: "Василий Булкин",
+        description: "Эксперт в области циФрового права, мега адвокат",
     },
     {
         id: 2,
         img: staff2,
-        name: "Мария Аграновская",
-        description: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        name: "Семён Семёныч",
+        description:
+            "Вице-президент российской ассоциации криптоэкономики, искусственного интеллекта и блокчейна.",
     },
     {
         id: 3,
         img: staff3,
-        name: "Мария Аграновская",
-        description: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        name: "Игнат Малевич",
+        description:
+            "Эксперт в области инвесиций и торговли на рынке криптовалют, лучший трейдер 2019",
     },
     {
         id: 4,
         img: staff4,
-        name: "Мария Аграновская",
-        description: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        name: "Максим Темченко",
+        description:
+            "Опытный траблшутер, создатель первой в СНГ компании по выкупу долго страховых фирм, разработчик NFT-игр",
     },
 ]

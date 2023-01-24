@@ -44,6 +44,14 @@
     flex-grow: 1.7;
 }
 
+.accent {
+    color: var(--secondary-color);
+}
+
 .btn {
     margin: 0 2em 1em;
+}
+
+.smallText {
+    color: var(--primary-color);
 }

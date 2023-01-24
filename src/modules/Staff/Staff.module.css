@@ -6,3 +6,7 @@
 .container {
     padding: 2em;
 }
+
+.accent {
+    color: var(--primary-color);
+}

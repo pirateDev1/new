@@ -7,8 +7,11 @@ function Staff() {
         <div className={styles.wrapper}>
             <div className={styles.container}>
                 <h2>
-                    Преподаватели — <span>ЭКСПЕРТЫ из МГИМО, МГУ, ВШЭ</span>,
-                    практики из крупных компаний
+                    Преподаватели —{" "}
+                    <span className={styles.accent}>
+                        ЭКСПЕРТЫ из МГИМО, МГУ, ВШЭ
+                    </span>
+                    , практики из крупных компаний
                 </h2>
                 <StaffSwiper />
             </div>

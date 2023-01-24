@@ -9,7 +9,7 @@ export default function Education() {
     return (
         <div className={styles.wrapper}>
             <div className={styles.container}>
-                <h2 className={styles.title}>Программа обучения</h2>
+                <p className={styles.title}>Программа обучения</p>
                 <ul className={styles.content}>
                     {educationData.map((item, index) => (
                         <EducationDescription

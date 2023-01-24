@@ -12,13 +12,13 @@ function Main() {
                     <img src={headerImg} alt="" />
                 </div>
                 <div className={styles.infoContainer}>
-                    <p className={styles.smallText}>
+                    <p className={styles.middleText}>
                         Гибридное образование с практическим уклоном
                     </p>
-                    <h2>
+                    <p className={styles.title}>
                         Обучаем цифровым профессиям будущего
                         <span>в сфере Web 3.0</span>
-                    </h2>
+                    </p>
                     <div className={styles.license}>
                         <img
                             src="https://static.tildacdn.com/tild3666-6137-4266-a263-366661646262/smalllogo.svg"

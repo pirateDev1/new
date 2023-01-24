@@ -6,3 +6,8 @@
 .container {
     padding: 2em;
 }
+
+.title {
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-mid);
+}

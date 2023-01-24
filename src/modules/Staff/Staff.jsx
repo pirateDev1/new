@@ -6,10 +6,10 @@ function Staff() {
     return (
         <div className={styles.wrapper}>
             <div className={styles.container}>
-                <h2>
+                <p className={styles.title}>
                     Преподаватели — <span>ЭКСПЕРТЫ из МГИМО, МГУ, ВШЭ</span>,
                     практики из крупных компаний
-                </h2>
+                </p>
                 <StaffSwiper />
             </div>
         </div>

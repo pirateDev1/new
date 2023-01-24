@@ -8,4 +8,6 @@
 
 .title {
     color: var(--base-color);
+    font-size: var(--big-text);
+    font-weight: var(--fw-reg);
 }

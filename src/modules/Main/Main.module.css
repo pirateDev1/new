@@ -10,6 +10,7 @@
     min-height: 100vh;
     height: fit-content;
     justify-content: space-between;
+    padding: 20px;
 }
 
 .middleText {
@@ -24,9 +25,6 @@
     font-weight: var(--fw-mid);
 }
 
-.infoContainer {
-    padding: 1em;
-}
 .content {
     display: flex;
     flex-direction: column;
@@ -38,8 +36,6 @@
 }
 
 .infoContainer {
-    margin: 0 2em;
-    padding: 0 1em;
     display: flex;
     align-items: center;
     width: 100%;
@@ -62,12 +58,9 @@
 .title {
     font-size: var(--big-text);
     font-weight: var(--fw-mid);
+    margin-bottom: 1rem;
 }
 
 .mainText {
     flex-grow: 1.7;
-}
-
-.btn {
-    margin: 0 2em 1em;
 }

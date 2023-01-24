@@ -15,7 +15,7 @@ export default function Form() {
     }
 
     return (
-        <div className={styles.wrapper}>
+        <div className={styles.wrapper} id="form">
             <div className={styles.container}>
                 <GratitudeModal
                     showGratitudeModal={showGratitudeModal}

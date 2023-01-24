@@ -1,8 +1,8 @@
 import React from "react"
 import styles from "./Main.module.css"
 import { mainBg } from "assets/pictures/main"
-import { Button } from "modules/common/ui/Button"
 import { IconsSection } from "./components/IconsSection"
+import { CtaButton } from "modules/common/components/CtaButton"
 
 function Main() {
     return (
@@ -25,7 +25,7 @@ function Main() {
                         <IconsSection />
                     </div>
                 </div>
-                <Button className={styles.btn}>Записаться</Button>
+                <CtaButton className={styles.btn}>Записаться</CtaButton>
             </div>
         </div>
     )

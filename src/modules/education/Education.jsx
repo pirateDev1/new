@@ -7,7 +7,7 @@ export default function Education() {
     const [selectedOption, setSelectedOption] = useState(0)
 
     return (
-        <div className={styles.wrapper}>
+        <div className={styles.wrapper} id="education">
             <div className={styles.container}>
                 <h2 className={styles.title}>
                     Программа обучения —{" "}

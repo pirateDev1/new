@@ -1,26 +1,26 @@
 import React from "react"
 import { BurgerCta } from "../BurgerCta"
+import { BurgerNavList } from "../BurgerNavList"
 import styles from "./BurgerNav.module.css"
 
 function BurgerNav({ showBurger, setShowBurger }) {
-    function clickHandler(e) {
+    function overlayClickHandler(e) {
         e.stopPropagation()
         setShowBurger(false)
+    }
+
+    function menuClickHandler(e) {
+        e.stopPropagation()
     }
 
     return (
         <div
             className={`${styles.overlay} ${showBurger ? styles.navOpen : ""}`}
-            onClick={clickHandler}
+            onClick={overlayClickHandler}
         >
-            <div className={styles.wrapper}>
+            <div className={styles.wrapper} onClick={menuClickHandler}>
                 <div className={styles.container}>
-                    <ul className={styles.list}>
-                        <li className={styles.item}>Main</li>
-                        <li className={styles.item}>About</li>
-                        <li className={styles.item}>Contacts</li>
-                        <li className={styles.item}>Reviews</li>
-                    </ul>
+                    <BurgerNavList setShowBurger={setShowBurger} />
                     <BurgerCta />
                 </div>
             </div>

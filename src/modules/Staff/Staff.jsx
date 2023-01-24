@@ -4,7 +4,7 @@ import styles from "./Staff.module.css"
 
 function Staff() {
     return (
-        <div className={styles.wrapper}>
+        <div className={styles.wrapper} id="staff">
             <div className={styles.container}>
                 <h2>
                     Преподаватели —{" "}

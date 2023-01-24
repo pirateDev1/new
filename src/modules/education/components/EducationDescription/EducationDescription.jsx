@@ -1,7 +1,7 @@
-import React from "react";
-import styles from "./EducationDescription.module.css";
-import { MinusIcons } from "../MinusIcons";
-import { PlusIcons } from "../PlusIcons";
+import React from "react"
+import styles from "./EducationDescription.module.css"
+import { MinusIcons } from "../MinusIcons"
+import { PlusIcons } from "../PlusIcons"
 
 export default function EducationDescription({
     index,
@@ -9,17 +9,17 @@ export default function EducationDescription({
     selectedOption,
     setSelectedOption,
 }) {
-    const { title, desc } = data;
+    const { title, desc } = data
     const i = (index + 1).toLocaleString("en-US", {
         minimumIntegerDigits: 2,
         useGrouping: false,
-    });
+    })
 
     return (
         <li className={styles.container}>
             <div className={styles.infoContainer}>
                 <p className={styles.number}>{i}.</p>
-                <h4 className={styles.title}>{title}</h4>
+                <p className={styles.title}>{title}</p>
                 {selectedOption === index && (
                     <p className={styles.description}>{desc}</p>
                 )}
@@ -31,5 +31,5 @@ export default function EducationDescription({
                 {selectedOption === index ? <MinusIcons /> : <PlusIcons />}
             </div>
         </li>
-    );
+    )
 }

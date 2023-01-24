@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 img {
@@ -24,6 +25,7 @@ html {
     --ff-primary: "Montserrat";
 
     --fw-reg: 400;
+    --fw-mid: 500;
     --fw-bold: 700;
 
     --base-color: #fff;
@@ -35,12 +37,14 @@ html {
     --modal-text: #000;
     --modal-bg: #fff;
 
-    --fs-h1: 24px;
-    --fs-h2: 22px;
-    --fs-h3: 20px;
-    --fs-h4: 18px;
-    --fs-h5: 16px;
-    --small-text: 12px;
+    --fs-h1: 2rem;
+    --fs-h2: 1.5rem;
+    --fs-h3: 1.17rem;
+    --fs-h4: 1rem;
+    --fs-h5: 0.83rem;
+    --big-text: 1.625rem;
+    --middle-text: 0.875rem;
+    --small-text: 0.75rem;
 
     --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

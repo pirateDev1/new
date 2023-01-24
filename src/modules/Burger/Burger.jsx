@@ -4,7 +4,7 @@ import { BurgerIcon } from "./components/BurgerIcon"
 import { BurgerNav } from "./components/BurgerNav"
 
 function Burger() {
-    const [showBurger, setShowBurger] = useState(true)
+    const [showBurger, setShowBurger] = useState(false)
 
     function clickHandler(e) {
         e.stopPropagation()

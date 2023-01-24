@@ -7,11 +7,12 @@
 }
 
 .title {
-    font-size: 28px;
+    font-size: var(--big-text);
 }
 
 .description {
     margin-top: 30px;
+    font: var(--middle-text);
 }
 
 .iconContainer img {

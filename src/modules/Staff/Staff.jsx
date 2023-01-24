@@ -4,12 +4,15 @@ import styles from "./Staff.module.css"
 
 function Staff() {
     return (
-        <div className={styles.wrapper}>
+        <div className={styles.wrapper} id="staff">
             <div className={styles.container}>
-                <p className={styles.title}>
-                    Преподаватели — <span>ЭКСПЕРТЫ из МГИМО, МГУ, ВШЭ</span>,
-                    практики из крупных компаний
-                </p>
+                <h2 className={styles.title}>
+                    Преподаватели —{" "}
+                    <span className={styles.accent}>
+                        ЭКСПЕРТЫ из МГИМО, МГУ, ВШЭ
+                    </span>
+                    , практики из крупных компаний
+                </h2>
                 <StaffSwiper />
             </div>
         </div>

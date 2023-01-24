@@ -1,12 +1,9 @@
-import sergei from "assets/staff/sergei.jpg"
-import sergei1 from "assets/staff/sergei1.jpg"
-import vlad from "assets/staff/vlad.jpg"
-import vlad1 from "assets/staff/vlad1.jpg"
+import { review1, review2, review3, review4 } from "assets/pictures/reviews"
 
 export const reviewsData = [
     {
         id: 1,
-        img: sergei,
+        img: review1,
         name: "Мария Аграновская",
         description:
             "aaaaa aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
@@ -15,7 +12,7 @@ export const reviewsData = [
     },
     {
         id: 2,
-        img: sergei1,
+        img: review2,
         name: "Мария Аграновская",
         description: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
         review: `Спасибо абсолютно каждому, кто причастен к созданию и функционированию Цифровой Академии Будущего!\n
@@ -24,7 +21,7 @@ export const reviewsData = [
     },
     {
         id: 3,
-        img: vlad,
+        img: review3,
         name: "Мария Аграновская",
         description: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
         review: `Моя образовательная программа пусть еще и не закончилась, но у меня уже сформировалось мнение касательно работы Академии.\n
@@ -32,7 +29,7 @@ export const reviewsData = [
     },
     {
         id: 4,
-        img: vlad1,
+        img: review4,
         name: "Мария Аграновская",
         description: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
         review: `Моя образовательная программа пусть еще и не закончилась, но у меня уже сформировалось мнение касательно работы Академии.\n

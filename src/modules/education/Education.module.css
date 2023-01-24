@@ -1,6 +1,6 @@
 .container {
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
     background-color: var(--base-bg-color);
     color: var(--base-color);
     padding: 20px;
@@ -10,4 +10,8 @@
     margin-bottom: 10px;
     text-align: center;
     font-size: var(--fs-h1);
+}
+
+.accent {
+    color: var(--primary-color);
 }

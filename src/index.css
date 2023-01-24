@@ -9,6 +9,18 @@ img {
     max-width: 100%;
 }
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --ff-primary: "Montserrat";
 
@@ -35,4 +47,8 @@ img {
     --small-text: 0.75rem;
 
     --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.accent {
+    color: var(--secondary-color);
 }

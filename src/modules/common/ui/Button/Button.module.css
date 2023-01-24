@@ -1,5 +1,5 @@
 .btn {
-    width: 100%;
+    max-width: 100%;
     padding: 10px 20px;
     border: 1px solid var(--primary-color);
     border-radius: 5px;

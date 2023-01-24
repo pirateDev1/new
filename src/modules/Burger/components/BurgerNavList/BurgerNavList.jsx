@@ -5,7 +5,9 @@ import { menuItems } from "./data"
 
 function BurgerNavList({ setShowBurger }) {
     function clickHandler() {
-        setShowBurger(false)
+        setTimeout(() => {
+            setShowBurger(false)
+        }, 20)
     }
     return (
         <ul className={styles.list}>

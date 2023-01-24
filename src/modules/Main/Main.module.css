@@ -12,6 +12,20 @@
     justify-content: space-between;
 }
 
+.middleText {
+    font-size: var(--middle-text);
+    width: 200px;
+    line-height: 1.2;
+    letter-spacing: 0.6px;
+    flex-grow: 1.5;
+    color: var(--primary-color);
+}
+
+.title {
+    font-size: var(--big-text);
+    font-weight: var(--fw-mid);
+}
+
 .content {
     display: flex;
     flex-direction: column;
@@ -30,15 +44,13 @@
     justify-content: space-between;
     flex-grow: 1;
     margin-bottom: 1em;
+    font-size: var(--fs-h3);
 }
 
-.smallText {
-    font-size: 12px;
-    width: 200px;
-    line-height: 1.2;
-    letter-spacing: 0.6px;
-    flex-grow: 1.5;
-    color: var(--primary-color);
+.title {
+    font-size: var(--big-text);
+    font-weight: var(--fw-mid);
+    margin-bottom: 1rem;
 }
 
 .mainText {

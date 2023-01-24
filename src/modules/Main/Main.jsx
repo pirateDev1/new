@@ -14,10 +14,10 @@ function Main() {
                         <img src={mainBg} alt="" />
                     </div>
                     <div className={styles.infoContainer}>
-                        <p className={styles.smallText}>
+                        <p className={styles.middleText}>
                             Гибридное образование с практическим уклоном
                         </p>
-                        <h2 className={styles.mainText}>
+                        <h2 className={styles.title}>
                             Обучаем цифровым профессиям будущего
                             <br />
                             <span className="accent">в сфере Web 3.0</span>

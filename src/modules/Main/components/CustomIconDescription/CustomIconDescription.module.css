@@ -1,10 +1,10 @@
-.license {
+.container {
     display: flex;
     align-items: center;
     width: 100%;
 }
 
-.license p {
+.container p {
     max-width: 150px;
     letter-spacing: 1px;
     font-size: 15px;
@@ -13,19 +13,19 @@
 .borderIcon {
     position: relative;
     margin-right: 1em;
-}
-
-.border {
+    height: 75px;
     width: 75px;
 }
 
-.icon {
-    filter: invert(0%) sepia(6%) saturate(513%) hue-rotate(89deg)
-        brightness(82%) contrast(87%);
+.border {
     width: 100%;
-    max-width: 50px;
+}
+
+.icon {
+    width: 100%;
+    max-width: 40px;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    translate: -50% -50%;
 }

@@ -19,9 +19,8 @@ function Main() {
                         </p>
                         <h2 className={styles.mainText}>
                             Обучаем цифровым профессиям будущего
-                            <span className={styles.accent}>
-                                в сфере Web 3.0
-                            </span>
+                            <br />
+                            <span className="accent">в сфере Web 3.0</span>
                         </h2>
                         <IconsSection />
                     </div>

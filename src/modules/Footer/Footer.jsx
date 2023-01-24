@@ -3,7 +3,7 @@ import styles from "./Footer.module.css"
 
 export default function Footer() {
     return (
-        <footer className={styles.wrapper}>
+        <footer className={styles.wrapper} id="footer">
             <div className={styles.mainComp}>
                 <p className={styles.companyName}>Crypto-School</p>
                 <p className={styles.companyTel}>Моб.: +79872282828</p>

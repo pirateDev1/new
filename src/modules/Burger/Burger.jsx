@@ -4,9 +4,18 @@ import { BurgerIcon } from "./components/BurgerIcon"
 import { BurgerNav } from "./components/BurgerNav"
 
 function Burger() {
-    const [showBurger, setShowBurger] = useState(false)
+    const [showBurger, setShowBurger] = useState(true)
+
+    function clickHandler(e) {
+        e.stopPropagation()
+        setShowBurger(false)
+    }
+
     return (
-        <div className={styles.wrapper}>
+        <div
+            className={showBurger ? styles.wrapper : ""}
+            onClick={clickHandler}
+        >
             <BurgerIcon showBurger={showBurger} setShowBurger={setShowBurger} />
             <BurgerNav showBurger={showBurger} setShowBurger={setShowBurger} />
         </div>

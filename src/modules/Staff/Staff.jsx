@@ -1,3 +1,4 @@
+import { CtaButton } from "modules/common/components/CtaButton"
 import React from "react"
 import { StaffSwiper } from "./components/StaffSwiper"
 import styles from "./Staff.module.css"
@@ -14,6 +15,7 @@ function Staff() {
                     , практики из крупных компаний
                 </h2>
                 <StaffSwiper />
+                <CtaButton>Записаться</CtaButton>
             </div>
         </div>
     )

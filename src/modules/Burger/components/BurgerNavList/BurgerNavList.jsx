@@ -3,12 +3,7 @@ import styles from "./BurgerNavList.module.css"
 import { NavLink } from "../NavLink"
 import { menuItems } from "./data"
 
-function BurgerNavList({ setShowBurger }) {
-    function clickHandler() {
-        setTimeout(() => {
-            setShowBurger(false)
-        }, 20)
-    }
+function BurgerNavList({ closeClickHandler }) {
     return (
         <ul className={styles.list}>
             {menuItems.map(item => {
@@ -16,7 +11,7 @@ function BurgerNavList({ setShowBurger }) {
                     <NavLink
                         key={item.id}
                         link={item.link}
-                        clickHandler={clickHandler}
+                        onClick={closeClickHandler}
                     >
                         {item.text}
                     </NavLink>

@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import styles from "./Education.module.css"
 import { EducationDescription } from "./components/EducationDescription"
 import { educationData } from "./data"
+import { CtaButton } from "modules/common/components/CtaButton"
 
 export default function Education() {
     const [selectedOption, setSelectedOption] = useState(0)
@@ -24,6 +25,7 @@ export default function Education() {
                         />
                     ))}
                 </ul>
+                <CtaButton>Записаться</CtaButton>
             </div>
         </div>
     )

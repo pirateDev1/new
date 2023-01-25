@@ -25,7 +25,7 @@ export default function Education() {
                         />
                     ))}
                 </ul>
-                <CtaButton>Записаться</CtaButton>
+                <CtaButton className={styles.btn}>Записаться</CtaButton>
             </div>
         </div>
     )

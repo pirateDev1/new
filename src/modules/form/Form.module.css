@@ -6,7 +6,6 @@
     align-items: center;
     background-color: var(--base-bg-color);
     color: var(--base-color);
-    position: relative;
 }
 
 .form {
@@ -36,6 +35,7 @@
     border-radius: 50px;
     padding-left: 10px;
 }
+
 .inputs:focus {
     border: none;
     box-shadow: var(--box-shadow);
@@ -46,4 +46,26 @@
     max-width: 350px !important;
     min-height: 50px;
     border-radius: 50px !important;
+}
+
+.inputWrap {
+    width: 100%;
+    position: relative;
+}
+
+.error {
+    position: absolute;
+    font-size: 10px;
+    color: red;
+    margin-top: 2px;
+    margin-left: 30px;
+}
+
+.inpError {
+    border-color: red;
+    outline: none;
+    width: 100%;
+    min-height: 50px;
+    border-radius: 50px;
+    padding-left: 10px;
 }

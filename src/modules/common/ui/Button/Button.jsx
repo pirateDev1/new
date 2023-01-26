@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import styles from "./Button.module.css"
 
 export default function Button({ children, variant, className, ...props }) {
@@ -8,7 +8,6 @@ export default function Button({ children, variant, className, ...props }) {
         case "filled":
             btnStyle = "filled"
             break
-
         case "outlined":
             btnStyle = "outlined"
             break

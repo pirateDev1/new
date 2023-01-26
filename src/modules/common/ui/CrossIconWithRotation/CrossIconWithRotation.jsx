@@ -10,19 +10,19 @@ function CrossIconWithRotation({
     onClick,
 }) {
     const openedStyles = isOpened ? styles.opened : ""
-    const style = { width: size, height: size, color, backgroundColor }
+    const style = {
+        color,
+        backgroundColor,
+        padding: size / 10,
+    }
 
     return (
-        <div
-            className={`${styles.container} ${openedStyles}`}
-            onClick={onClick}
+        <RxCross1
+            className={`${styles.cross} ${openedStyles}`}
+            size={size}
             style={style}
-        >
-            <RxCross1
-                className={`${styles.cross} ${openedStyles}`}
-                style={{ ...styles, fontSize: size ? size * 0.7 : null }}
-            />
-        </div>
+            onClick={onClick}
+        />
     )
 }
 

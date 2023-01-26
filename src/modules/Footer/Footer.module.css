@@ -37,5 +37,7 @@
 
 .adrs {
     text-align: center;
-    font-weight: var(--fw-mid);
+    font-size: var(--middle-text);
+    color: rgba(0, 0, 0, 0.4);
+    letter-spacing: 0.2px;
 }

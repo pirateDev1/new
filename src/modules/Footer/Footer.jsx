@@ -6,9 +6,9 @@ export default function Footer() {
         <footer className={styles.wrapper} id="footer">
             <div className={styles.mainComp}>
                 <p className={styles.name}>Crypto-School</p>
-                <p className={styles.phone}>Моб.: +79872282828</p>
+                <p className={styles.phone}>7 (987) 228-28-28</p>
             </div>
-            <p className={styles.email}>info@Crypto-School.ru</p>
+            <p className={styles.email}>info@crypto.ru</p>
             <p className={styles.idNumber}>ИП Глазов М.С., ИНН: 631214905156</p>
             <p className={styles.adrs}>
                 © ООО «ЦМТ ЦИФРОВАЯ АКАДЕМИЯ БУДУЩЕГО», Москва,

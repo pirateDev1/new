@@ -1,10 +1,11 @@
 .wrapper {
     background-color: var(--base-bg-color);
     color: var(--base-color);
+    padding: 2em 0;
 }
 
 .container {
-    padding: 2em;
+    padding: 0 2em;
 }
 
 .title {
@@ -12,6 +13,7 @@
     font-weight: var(--fw-mid);
 }
 
-.accent {
-    color: var(--primary-color);
+.btn {
+    width: 100%;
+    margin: 1em;
 }

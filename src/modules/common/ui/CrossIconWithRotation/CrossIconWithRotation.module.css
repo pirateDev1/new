@@ -1,0 +1,21 @@
+.container {
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container.opened {
+    background-color: var(--primary-color);
+}
+
+.cross {
+    rotate: 45deg;
+}
+
+.cross.opened {
+    rotate: 90deg;
+    transition: rotate 200ms ease;
+    color: black;
+}

@@ -1,14 +1,12 @@
 .wrapper {
-    width: 100vw;
+    max-width: 100vw;
     min-height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: var(--base-bg-color);
-    color: var(--base-color);
     border-top: 1px solid var(--primary-color);
+    padding: 20px;
 }
 
 .mainComp {
@@ -17,6 +15,29 @@
     justify-content: space-between;
 }
 
-.companyAdrs {
+.name {
+    font-weight: var(--fw-mid);
+    font-size: var(--fs-h3);
+}
+
+.phone {
+    font-weight: var(--fw-mid);
+    font-size: var(--fs-h3);
+}
+
+.email {
+    font-weight: var(--fw-mid);
+    font-size: var(--fs-h3);
+}
+
+.idNumber {
+    font-weight: var(--fw-mid);
+    font-size: var(--fs-h5);
+}
+
+.adrs {
     text-align: center;
+    font-size: var(--middle-text);
+    color: rgba(0, 0, 0, 0.4);
+    letter-spacing: 0.2px;
 }

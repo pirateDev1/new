@@ -1,21 +1,13 @@
-.container {
-    border-radius: 50%;
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container.opened {
-    background-color: var(--primary-color);
-}
-
 .cross {
     rotate: 45deg;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background-color: transparent;
+    transition: all 200ms ease;
 }
 
-.cross.opened {
+.opened {
     rotate: 90deg;
-    transition: rotate 200ms ease;
-    color: black;
+    color: var(--base-bg-color);
+    background-color: var(--primary-color);
 }

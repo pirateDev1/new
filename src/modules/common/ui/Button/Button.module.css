@@ -25,6 +25,9 @@
     letter-spacing: 0.2px;
     background-color: inherit;
     cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .filled:hover {

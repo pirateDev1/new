@@ -5,9 +5,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: var(--base-bg-color);
-    color: var(--base-color);
+    padding: 15px;
     border-top: 1px solid var(--primary-color);
 }
 
@@ -17,6 +15,27 @@
     justify-content: space-between;
 }
 
-.companyAdrs {
+.name {
+    font-weight: var(--fw-mid);
+    font-size: var(--fs-h3);
+}
+
+.phone {
+    font-weight: var(--fw-mid);
+    font-size: var(--fs-h3);
+}
+
+.email {
+    font-weight: var(--fw-mid);
+    font-size: var(--fs-h3);
+}
+
+.idNumber {
+    font-weight: var(--fw-mid);
+    font-size: var(--fs-h5);
+}
+
+.adrs {
     text-align: center;
+    font-weight: var(--fw-mid);
 }

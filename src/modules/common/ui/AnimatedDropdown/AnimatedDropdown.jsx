@@ -11,7 +11,7 @@ function AnimatedDropdown({ children, opened }) {
         } else {
             setTimeout(() => {
                 setHeight(0)
-            }, 100)
+            }, 50)
         }
     }, [opened])
 

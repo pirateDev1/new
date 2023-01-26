@@ -7,6 +7,7 @@
     font-size: var(--fs-h3);
     font-weight: var(--fw-mid);
     color: var(--btn-text);
+    letter-spacing: 0.2px;
     background-color: var(--primary-color);
     cursor: pointer;
 }
@@ -20,6 +21,7 @@
     font-size: var(--fs-h3);
     font-weight: var(--fw-mid);
     color: var(--base-color);
+    letter-spacing: 0.2px;
     background-color: inherit;
     cursor: pointer;
 }

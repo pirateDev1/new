@@ -1,7 +1,6 @@
 import { CtaButton } from "modules/common/components/CtaButton"
-import { Button } from "modules/common/ui/Button"
 import React from "react"
-import styles from "./BurgerCta.modules.css"
+import styles from "./BurgerCta.module.css"
 
 function BurgerCta({ closeClickHandler }) {
     return (
@@ -12,10 +11,9 @@ function BurgerCta({ closeClickHandler }) {
                 независимо от того, где вы находитесь{"\n"}и какие гаджеты есть
                 под рукой
             </p>
-            <Button variant="outlined">Заказать</Button>
-            {/* <CtaButton onClick={closeClickHandler}>
+            <CtaButton variant="outlined" onClick={closeClickHandler}>
                 Заказать
-            </CtaButton> */}
+            </CtaButton>
         </div>
     )
 }

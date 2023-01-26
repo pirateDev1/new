@@ -1,5 +1,6 @@
 .filled {
-    max-width: 100%;
+    width: 100%;
+    max-width: 300px;
     padding: 10px 20px;
     border: 1px solid var(--primary-color);
     border-radius: 5px;
@@ -11,7 +12,8 @@
 }
 
 .outlined {
-    max-width: 100%;
+    width: 100%;
+    max-width: 300px;
     padding: 10px 20px;
     border: 1px solid var(--primary-color);
     border-radius: 5px;

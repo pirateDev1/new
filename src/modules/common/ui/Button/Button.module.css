@@ -1,4 +1,16 @@
-.btn {
+.filled {
+    max-width: 100%;
+    padding: 10px 20px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
+    color: var(--btn-text);
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.outlined {
     max-width: 100%;
     padding: 10px 20px;
     border: 1px solid var(--primary-color);
@@ -6,11 +18,18 @@
     font-size: var(--fs-h3);
     font-weight: var(--fw-bold);
     color: var(--base-color);
-    background-color: var(--primary-color);
+    background-color: inherit;
     cursor: pointer;
 }
 
-.btn:hover {
+.filled:hover {
     background-color: var(--hover-btn-color);
     border-color: var(--hover-btn-color);
+    color: var(--btn-text);
+}
+
+.outlined:hover {
+    border-color: var(--hover-btn-color);
+    background-color: var(--hover-btn-color);
+    color: var(--btn-text);
 }

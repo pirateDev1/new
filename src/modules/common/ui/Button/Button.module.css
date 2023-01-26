@@ -5,7 +5,7 @@
     border: 1px solid var(--primary-color);
     border-radius: 5px;
     font-size: var(--fs-h3);
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-mid);
     color: var(--btn-text);
     background-color: var(--primary-color);
     cursor: pointer;
@@ -18,7 +18,7 @@
     border: 1px solid var(--primary-color);
     border-radius: 5px;
     font-size: var(--fs-h3);
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-mid);
     color: var(--base-color);
     background-color: inherit;
     cursor: pointer;

@@ -1,7 +1,10 @@
+.wrapper {
+    background-color: var(--base-bg-color);
+}
+
 .container {
     width: 100vw;
     height: fit-content;
-    background-color: var(--base-bg-color);
     color: var(--base-color);
     padding: 20px;
     display: flex;

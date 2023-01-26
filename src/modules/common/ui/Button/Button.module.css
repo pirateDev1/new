@@ -5,10 +5,12 @@
     border: 1px solid var(--primary-color);
     border-radius: 5px;
     font-size: var(--fs-h3);
-    font-weight: var(--fw-bold);
     color: var(--btn-text);
     background-color: var(--primary-color);
     cursor: pointer;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .outlined {
@@ -18,10 +20,14 @@
     border: 1px solid var(--primary-color);
     border-radius: 5px;
     font-size: var(--fs-h3);
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-mid);
     color: var(--base-color);
+    letter-spacing: 0.2px;
     background-color: inherit;
     cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .filled:hover {

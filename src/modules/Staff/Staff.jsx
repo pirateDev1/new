@@ -15,8 +15,8 @@ function Staff() {
                     , практики из крупных компаний
                 </h2>
                 <StaffSwiper />
+                <CtaButton className={styles.btn}>Записаться</CtaButton>
             </div>
-            <CtaButton className={styles.btn}>Записаться</CtaButton>
         </div>
     )
 }

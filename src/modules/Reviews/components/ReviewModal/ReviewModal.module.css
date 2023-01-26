@@ -9,10 +9,17 @@
     z-index: 100;
 }
 
+.content {
+    padding: 0 2.5em 1em;
+    margin-top: 50px;
+}
+
 .review {
-    font-size: 14px;
+    font-size: 16px;
     height: 200px;
     word-break: break-word;
+    line-height: 1.45;
+    font-weight: 300;
 }
 
 .close {
@@ -21,9 +28,4 @@
     right: 10px;
     font-size: 20px;
     z-index: 1000;
-}
-
-.content {
-    padding: 0 30px 30px;
-    margin-top: 50px;
 }

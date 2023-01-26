@@ -2,7 +2,6 @@ import React, { useState } from "react"
 import styles from "./Form.module.css"
 import { Button } from "modules/common/ui/Button"
 import { GratitudeModal } from "modules/GratitudeModal"
-import { BackgroundImgs } from "modules/common/ui/BackgroundImgs"
 
 export default function Form() {
     const [name, setName] = useState("")
@@ -18,7 +17,6 @@ export default function Form() {
     return (
         <div className={styles.wrapper} id="form">
             <div className={styles.container}>
-                <BackgroundImgs />
                 <GratitudeModal
                     showGratitudeModal={showGratitudeModal}
                     setShowGratitudeModal={setShowGratitudeModal}

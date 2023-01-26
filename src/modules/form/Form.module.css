@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--base-bg-color);
+    background-color: var(--base-color);
     color: var(--base-color);
     position: relative;
 }
@@ -17,33 +17,34 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10px;
+    padding: 20px 30px;
     border-radius: 5px;
     z-index: 2;
-    background-color: var(--base-bg-color);
-    box-shadow: var(--box-shadow);
 }
 
 .title {
     font-size: var(--fs-h2);
+    color: var(--base-bg-color);
 }
 
 .inputs {
     outline: none;
     width: 100%;
-    min-height: 50px;
-    border: 1px solid grey;
+    min-height: 48px;
+    padding-left: 20px;
+    border: 1px solid var(--primary-color);
     border-radius: 50px;
-    padding-left: 10px;
+    font-family: inherit;
 }
+
 .inputs:focus {
-    border: none;
-    box-shadow: var(--box-shadow);
+    border: 1px solid var(--secondary-color);
 }
 
 .btn {
-    width: 100%;
-    max-width: 350px !important;
-    min-height: 50px;
+    min-height: 48px;
+    color: var(--base-color) !important;
     border-radius: 50px !important;
+    font-weight: var(--fw-mid);
+    letter-spacing: 0.2px;
 }

@@ -1,0 +1,25 @@
+.dots {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url(../../../../assets/patterns/dots.svg);
+    background-position: top;
+    background-size: 350%;
+    position: absolute;
+    background-color: var(--base-bg-color);
+    opacity: 0.22;
+}
+/* 
+.dots {
+    position: absolute;
+    left: 200px;
+    right: 0;
+    top: 0;
+    bottom: 200px;
+    background-image: url(../../../../assets/patterns/dots.svg);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-color: var(--base-bg-color);
+    opacity: 0.3;
+} */

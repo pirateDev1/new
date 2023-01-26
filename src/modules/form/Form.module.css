@@ -9,19 +9,6 @@
     position: relative;
 }
 
-.dots {
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-image: url(../../assets/patterns/dots.svg);
-    background-position: top;
-    background-size: 350%;
-    position: absolute;
-    background-color: var(--base-bg-color);
-    opacity: 0.22;
-}
-
 .form {
     width: 100%;
     max-width: 350px;
@@ -30,9 +17,11 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 20px 10px;
     border-radius: 5px;
     z-index: 2;
+    background-color: var(--base-bg-color);
+    box-shadow: var(--box-shadow);
 }
 
 .title {
@@ -54,6 +43,7 @@
 
 .btn {
     width: 100%;
+    max-width: 350px !important;
     min-height: 50px;
     border-radius: 50px !important;
 }

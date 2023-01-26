@@ -61,9 +61,9 @@ export default function Form() {
                     <p className={styles.title}>Оставить заявку</p>
                     <div className={styles.inputWrap}>
                         <input
-                            className={
-                                nameError ? styles.inpError : styles.inputs
-                            }
+                            className={`${styles.inputs} ${
+                                nameError ? styles.inpError : ""
+                            }`}
                             type="text"
                             value={name}
                             onChange={handleNameChange}
@@ -75,9 +75,9 @@ export default function Form() {
                     </div>
                     <div className={styles.inputWrap}>
                         <input
-                            className={
-                                nameError ? styles.inpError : styles.inputs
-                            }
+                            className={`${styles.inputs} ${
+                                phoneError ? styles.inpError : ""
+                            }`}
                             type="text"
                             value={phone}
                             onChange={handlePhoneChange}

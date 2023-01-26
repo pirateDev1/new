@@ -30,7 +30,7 @@
 .inputs {
     outline: none;
     width: 100%;
-    min-height: 50px;
+    min-height: 48px;
     padding-left: 20px;
     border: 1px solid var(--primary-color);
     border-radius: 50px;
@@ -42,10 +42,9 @@
 }
 
 .btn {
-    width: 100%;
-    max-width: 350px !important;
-    min-height: 40px;
-    border: none;
+    min-height: 48px;
     color: var(--base-color) !important;
     border-radius: 50px !important;
+    font-weight: var(--fw-mid);
+    letter-spacing: 0.2px;
 }

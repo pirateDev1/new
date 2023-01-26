@@ -32,7 +32,8 @@ html {
     --base-bg-color: #0b0b22;
     --primary-color: #11bbff;
     --secondary-color: #00dd99;
-    --hover-btn-color: rgb(92, 125, 223);
+    --btn-text: #0b0b22;
+    --hover-btn-color: #00dd99;
 
     --modal-text: #000;
     --modal-bg: #fff;
@@ -49,6 +50,14 @@ html {
     --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.accent {
+span.accent-primary {
+    color: var(--primary-color);
+}
+
+span.accent-secondary {
     color: var(--secondary-color);
+}
+
+span.bold {
+    font-weight: bold;
 }

@@ -20,7 +20,9 @@ function Main() {
                         <h2 className={styles.title}>
                             Обучаем цифровым профессиям будущего
                             <br />
-                            <span className="accent">в сфере Web 3.0</span>
+                            <span className="accent-secondary">
+                                в сфере Web 3.0
+                            </span>
                         </h2>
                         <IconsSection />
                     </div>

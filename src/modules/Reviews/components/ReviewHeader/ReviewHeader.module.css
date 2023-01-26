@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     font-size: 13px;
     margin-bottom: 20px;
 }
@@ -10,9 +10,19 @@
     height: 50px;
     border-radius: 50%;
     background-size: contain;
+    margin-right: 10px;
 }
 
 .info {
     max-width: 200px;
     word-break: break-word;
+}
+
+.info h5 {
+    font-size: 14px;
+}
+
+.info p {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
 }

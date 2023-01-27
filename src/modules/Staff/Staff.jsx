@@ -9,7 +9,7 @@ function Staff() {
             <div className={styles.container}>
                 <h2 className={styles.title}>
                     Преподаватели —{" "}
-                    <span className={styles.accent}>
+                    <span className="accent-primary">
                         ЭКСПЕРТЫ из МГИМО, МГУ, ВШЭ
                     </span>
                     , практики из крупных компаний

@@ -2,21 +2,24 @@ import React from "react"
 import styles from "./Button.module.css"
 
 export default function Button({ children, variant, className, ...props }) {
-    let btnStyle = "filled"
+    let btnVar = "filled"
 
     switch (variant) {
         case "filled":
-            btnStyle = "filled"
+            btnVar = "filled"
             break
         case "outlined":
-            btnStyle = "outlined"
+            btnVar = "outlined"
             break
         default:
-            btnStyle = "filled"
+            btnVar = "filled"
     }
 
     return (
-        <button className={`${styles[btnStyle]} ${className}`} {...props}>
+        <button
+            className={`${styles.btn} ${styles[btnVar]} ${className}`}
+            {...props}
+        >
             {children}
         </button>
     )

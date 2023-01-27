@@ -4,11 +4,12 @@
 }
 
 .container {
-    padding: 2em;
+    padding: 2rem 0;
 }
 
 .title {
     color: var(--base-color);
     font-size: var(--big-text);
     font-weight: var(--fw-reg);
+    padding: 0 1.5rem;
 }

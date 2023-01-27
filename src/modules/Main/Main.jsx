@@ -9,7 +9,6 @@ function Main() {
         <div className={styles.wrapper} id="main">
             <div className={styles.container}>
                 <div className={styles.content}>
-                    <h3 className={styles.topText}>Обучение ЦАБ</h3>
                     <div className={styles.imgContainer}>
                         <img src={mainBg} alt="" />
                     </div>

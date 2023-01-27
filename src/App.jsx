@@ -6,10 +6,11 @@ import { Main } from "modules/Main"
 import { Reviews } from "modules/Reviews"
 import { Staff } from "modules/Staff"
 import { Footer } from "modules/Footer"
-
+import { Navbar } from "modules/Navbar"
 function App() {
     return (
         <div>
+            <Navbar />
             <Burger />
             <Main />
             <Education />

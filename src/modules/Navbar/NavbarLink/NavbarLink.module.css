@@ -1,0 +1,8 @@
+.item {
+    padding: 5px 0;
+    font-weight: var(--fw-mid);
+}
+
+.item:hover {
+    color: var(--primary-color);
+}

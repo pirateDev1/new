@@ -5,14 +5,16 @@
 }
 
 .container {
-    padding: 0 2em;
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
     font-size: var(--fs-h1);
     font-weight: var(--fw-mid);
+    padding: 0 1.5rem;
 }
 
 .btn {
-    margin: 0 auto;
+    margin: 0 auto 1em;
 }

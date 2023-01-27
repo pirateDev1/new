@@ -26,8 +26,8 @@ function Main() {
                         </h2>
                         <IconsSection />
                     </div>
+                    <CtaButton className={styles.btn}>Записаться</CtaButton>
                 </div>
-                <CtaButton className={styles.btn}>Записаться</CtaButton>
             </div>
         </div>
     )

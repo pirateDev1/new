@@ -1,33 +1,24 @@
-.filled {
+.btn {
     width: 100%;
     max-width: 350px;
     padding: 10px 20px;
-    border: 1px solid var(--primary-color);
     border-radius: 5px;
-    font-size: var(--fs-h3);
-    color: var(--btn-text);
-    background-color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 500;
     cursor: pointer;
     font-family: inherit;
-    font-weight: 600;
-    font-size: 16px;
+}
+
+.filled {
+    border: 1px solid var(--primary-color);
+    color: var(--btn-text);
+    background-color: var(--primary-color);
 }
 
 .outlined {
-    width: 100%;
-    max-width: 350px;
-    padding: 10px 20px;
     border: 1px solid var(--primary-color);
-    border-radius: 5px;
-    font-size: var(--fs-h3);
-    font-weight: var(--fw-mid);
     color: var(--base-color);
-    letter-spacing: 0.2px;
     background-color: inherit;
-    cursor: pointer;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
 }
 
 .filled:hover {

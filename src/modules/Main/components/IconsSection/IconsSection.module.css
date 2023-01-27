@@ -4,3 +4,9 @@
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+/* @media (min-width: 600px) {
+    .container {
+        flex-grow: 0;
+    }
+} */

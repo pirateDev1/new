@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./NavbarList.module.css"
 import { NavbarLink } from "../NavbarLink"
-import { menuItems } from "./data"
+import { menuItems } from "modules/Navigation/data"
 
 export default function NavbarList() {
     return (

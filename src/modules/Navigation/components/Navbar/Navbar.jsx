@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./Navbar.module.css"
 import { CtaButton } from "modules/common/components/CtaButton"
-import { NavbarList } from "./NavbarList"
+import { NavbarList } from "./components/NavbarList"
 
 export default function Navbar() {
     return (

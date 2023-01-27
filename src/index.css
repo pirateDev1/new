@@ -51,6 +51,47 @@ body {
     --small-text: 0.75rem;
 
     --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    --fs-xl: 26px;
+    /* --fs-600: 20px;
+    --fs-500: 18px;
+    --fs-400: 14px; */
+}
+
+@media (min-width: 481px) {
+    :root {
+        --fs-xl: 38px;
+        /*  --fs-600: 22px;
+        --fs-500: 20px;
+        --fs-400: 16px; */
+    }
+}
+
+@media (min-width: 769px) {
+    :root {
+        --fs-xl: 44px;
+        /*  --fs-600: 24px;
+        --fs-500: 22px;
+        --fs-400: 18px; */
+    }
+}
+
+@media (min-width: 1025px) {
+    :root {
+        --fs-xl: 54px;
+        /* --fs-600: 20px;
+        --fs-500: 18px;
+        --fs-400: 14px; */
+    }
+}
+
+@media (min-width: 1201px) {
+    :root {
+        --fs-xl: 63px;
+        /* --fs-600: 20px;
+        --fs-500: 18px;
+        --fs-400: 14px; */
+    }
 }
 
 span.accent-primary {

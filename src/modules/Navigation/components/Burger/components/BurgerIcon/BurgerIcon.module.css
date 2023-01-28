@@ -62,3 +62,9 @@
 .hamburger::after {
     bottom: 6px;
 }
+
+@media (min-width: 961px) {
+    .navToggle {
+        display: none;
+    }
+}

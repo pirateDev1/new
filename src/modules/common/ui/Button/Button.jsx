@@ -11,6 +11,9 @@ export default function Button({ children, variant, className, ...props }) {
         case "outlined":
             btnVar = "outlined"
             break
+        case "text":
+            btnVar = "text"
+            break
         default:
             btnVar = "filled"
     }

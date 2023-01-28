@@ -32,3 +32,13 @@
     background-color: var(--hover-btn-color);
     color: var(--btn-text);
 }
+
+.text {
+    border: none;
+    color: var(--base-color);
+    background-color: transparent;
+}
+
+.text:hover {
+    color: var(--secondary-color);
+}

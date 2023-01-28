@@ -1,8 +1,7 @@
 import React from "react"
 import styles from "./Navigation.module.css"
-import { Burger } from "./components/Burger"
-import { Logo } from "./components/Logo"
-import { Navbar } from "./components/Navbar"
+
+import { Burger, Logo, Navbar } from "./components"
 
 function Navigation() {
     return (

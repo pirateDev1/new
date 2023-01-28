@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./NavigationList.module.css"
 import { NavigationLink } from "../NavigationLink"
-import { menuItems } from "modules/Navigation/components/common/data"
+import { menuItems } from "../data"
 
 function BurgerNavList({ closeClickHandler }) {
     return (

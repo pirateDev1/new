@@ -1,0 +1,15 @@
+.wrapper {
+    background-color: var(--base-bg-color);
+    width: 100%;
+    max-width: 100vw;
+    min-height: 70px;
+}
+
+.container {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}

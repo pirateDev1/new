@@ -1,7 +1,7 @@
 import React from "react"
-import styles from "./NavLink.module.css"
+import styles from "./NavigationLink.module.css"
 
-function NavLink({ children, link, onClick }) {
+function NavigationLink({ children, link, onClick }) {
     return (
         <li className={styles.item} onClick={onClick}>
             <a href={link}>{children}</a>
@@ -9,4 +9,4 @@ function NavLink({ children, link, onClick }) {
     )
 }
 
-export default NavLink
+export default NavigationLink

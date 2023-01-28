@@ -18,7 +18,7 @@ function StaffSwiper() {
             <Swiper
                 className={styles.swiper}
                 spaceBetween={50}
-                slidesPerView={1}
+                slidesPerView={4}
                 modules={[Navigation]}
                 navigation={{
                     nextEl: "#nextStaff",

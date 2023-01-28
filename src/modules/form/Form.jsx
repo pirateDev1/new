@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import styles from "./Form.module.css"
 import { Button } from "modules/common/ui/Button"
-import { GratitudeModal } from "modules/GratitudeModal"
+import { GratitudeModal } from "./components/GratitudeModal"
 
 export default function Form() {
     const [name, setName] = useState("")
@@ -46,6 +46,8 @@ export default function Form() {
         }
 
         setShowGratitudeModal(true)
+        setName("")
+        setPhone("")
         setNameError(false)
         setPhoneError(false)
     }
@@ -58,38 +60,42 @@ export default function Form() {
                     setShowGratitudeModal={setShowGratitudeModal}
                 />
                 <form onSubmit={submitHandler} className={styles.form}>
-                    <p className={styles.title}>Оставить заявку</p>
-                    <div className={styles.inputWrap}>
-                        <input
-                            className={`${styles.inputs} ${
-                                nameError ? styles.inpError : ""
-                            }`}
-                            type="text"
-                            value={name}
-                            onChange={handleNameChange}
-                            placeholder="Введите Ваше имя"
-                        />
-                        {nameError && (
-                            <p className={styles.error}>*Введите Ваше имя</p>
-                        )}
+                    <div className={styles.formContainer}>
+                        <p className={styles.title}>Оставить заявку</p>
+                        <div className={styles.inputWrap}>
+                            <input
+                                className={`${styles.inputs} ${
+                                    nameError ? styles.inpError : ""
+                                }`}
+                                type="text"
+                                value={name}
+                                onChange={handleNameChange}
+                                placeholder="Введите Ваше имя"
+                            />
+                            {nameError && (
+                                <p className={styles.error}>
+                                    *Введите Ваше имя
+                                </p>
+                            )}
+                        </div>
+                        <div className={styles.inputWrap}>
+                            <input
+                                className={`${styles.inputs} ${
+                                    phoneError ? styles.inpError : ""
+                                }`}
+                                type="text"
+                                value={phone}
+                                onChange={handlePhoneChange}
+                                placeholder="Введите Ваш телефон"
+                            />
+                            {phoneError && (
+                                <p className={styles.error}>
+                                    *Введите корректный номер телефона
+                                </p>
+                            )}
+                        </div>
+                        <Button className={styles.btn}>Записаться</Button>
                     </div>
-                    <div className={styles.inputWrap}>
-                        <input
-                            className={`${styles.inputs} ${
-                                phoneError ? styles.inpError : ""
-                            }`}
-                            type="text"
-                            value={phone}
-                            onChange={handlePhoneChange}
-                            placeholder="Введите Ваш телефон"
-                        />
-                        {phoneError && (
-                            <p className={styles.error}>
-                                *Введите корректный номер телефона
-                            </p>
-                        )}
-                    </div>
-                    <Button className={styles.btn}>Записаться</Button>
                 </form>
             </div>
         </div>

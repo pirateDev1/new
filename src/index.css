@@ -67,7 +67,7 @@ body {
     }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 650px) {
     :root {
         --fs-xl: 44px;
         /*  --fs-600: 24px;

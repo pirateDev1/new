@@ -5,8 +5,9 @@
     justify-content: space-evenly;
 }
 
-/* @media (min-width: 600px) {
+@media (min-width: 650px) {
     .container {
         flex-grow: 0;
+        flex-direction: row;
     }
-} */
+}

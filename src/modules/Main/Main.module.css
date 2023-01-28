@@ -1,5 +1,6 @@
 .wrapper {
     min-height: 100vh;
+
     background-color: var(--base-bg-color);
     color: var(--base-color);
 }
@@ -8,13 +9,16 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
     height: fit-content;
     justify-content: space-between;
 }
 
 .middleText {
-    font-size: var(--middle-text);
-    width: 200px;
+    font-size: 14px;
+    min-width: 200px;
+    width: 100%;
     line-height: 1.2;
     letter-spacing: 0.6px;
     flex-grow: 1.5;
@@ -29,6 +33,7 @@
 .content {
     display: flex;
     flex-direction: column;
+    align-items: center;
     flex-grow: 1;
 }
 
@@ -48,7 +53,7 @@
 }
 
 .title {
-    font-size: var(--big-text);
+    font-size: var(--fs-xl);
     font-weight: var(--fw-mid);
     margin-bottom: 1rem;
 }
@@ -61,12 +66,76 @@
     margin: 0 auto 1em;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 481px) {
+    .container {
+        min-height: 0;
+    }
+
+    .middleText {
+        font-size: 20px;
+    }
+
     .content {
-        flex-direction: row-reverse;
+        margin: 0 auto;
+        max-width: 95vw;
+    }
+
+    .middleText {
+        font-size: 20px;
+        letter-spacing: 0.2px;
+        flex-grow: 0;
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 650px) {
+    .wrapper {
+        min-height: 0;
+        height: fit-content;
+    }
+
+    .content {
+        max-width: 90vw;
+    }
+
+    .container {
+        height: fit-content;
+    }
+
+    .middleText {
+        font-size: 20px;
+        max-width: 100%;
+        margin-bottom: 1rem;
     }
 
     .infoContainer {
-        max-height: 400px;
+        flex-grow: 0;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 960px) {
+    .container {
+        height: fit-content;
+    }
+
+    .middleText {
+        font-size: 22px;
+        letter-spacing: 0;
+    }
+
+    .content {
+        flex-direction: row-reverse;
+        max-width: 100%;
+    }
+
+    .imgContainer {
+        position: relative;
+        transform: scale(1.5);
+        transform-origin: right;
+    }
+
+    .btn {
+        margin-top: 0px;
     }
 }

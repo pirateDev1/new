@@ -4,10 +4,19 @@
     flex-shrink: 0;
     background-color: transparent;
     transition: all 200ms ease;
+    color: var(--primary-color);
+    cursor: pointer;
 }
 
 .opened {
     rotate: 90deg;
     color: var(--base-bg-color);
     background-color: var(--primary-color);
+}
+
+@media (min-width: 961px) {
+    .cross:hover {
+        background-color: var(--secondary-color);
+        color: var(--base-bg-color);
+    }
 }

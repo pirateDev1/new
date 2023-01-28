@@ -3,12 +3,13 @@
 }
 
 .container {
-    max-width: 100vw;
+    max-width: 1200px;
     height: fit-content;
     color: var(--base-color);
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .title {

@@ -10,6 +10,8 @@
     transition: color 200ms ease;
 }
 
-.container > *:hover {
-    color: var(--secondary-color);
+@media (min-width: 961px) {
+    .container > *:hover {
+        color: var(--secondary-color);
+    }
 }

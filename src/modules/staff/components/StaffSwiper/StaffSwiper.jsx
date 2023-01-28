@@ -18,11 +18,25 @@ function StaffSwiper() {
             <Swiper
                 className={styles.swiper}
                 spaceBetween={50}
-                slidesPerView={4}
                 modules={[Navigation]}
                 navigation={{
                     nextEl: "#nextStaff",
                     prevEl: "#prevStaff",
+                }}
+                slidesPerView={1}
+                breakpoints={{
+                    570: {
+                        slidesPerView: 2,
+                    },
+                    870: {
+                        slidesPerView: 3,
+                    },
+                    1170: {
+                        slidesPerView: 4,
+                    },
+                    1470: {
+                        slidesPerView: 5,
+                    },
                 }}
             >
                 {staffData.map(item => (

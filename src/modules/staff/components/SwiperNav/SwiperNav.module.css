@@ -4,4 +4,12 @@
     font-size: 60px;
     color: var(--primary-color);
     padding: 0 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: color 200ms ease;
+}
+
+.container > *:hover {
+    color: var(--secondary-color);
 }

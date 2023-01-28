@@ -1,6 +1,5 @@
 .wrapper {
     min-height: 100vh;
-
     background-color: var(--base-bg-color);
     color: var(--base-color);
 }
@@ -69,18 +68,15 @@
 
     .middleText {
         font-size: 20px;
+        width: 100%;
+        font-size: 20px;
+        letter-spacing: 0.2px;
+        flex-grow: 0;
     }
 
     .content {
         margin: 0 auto;
         max-width: 95vw;
-    }
-
-    .middleText {
-        font-size: 20px;
-        letter-spacing: 0.2px;
-        flex-grow: 0;
-        max-width: 70%;
     }
 }
 

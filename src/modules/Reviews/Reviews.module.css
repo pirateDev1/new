@@ -1,15 +1,17 @@
 .wrapper {
     background-color: var(--base-bg-color);
     position: relative;
+    padding-bottom: 10px;
 }
 
 .container {
-    padding: 2rem 0;
+    padding: 1rem 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .title {
     color: var(--base-color);
-    font-size: var(--big-text);
-    font-weight: var(--fw-reg);
-    padding: 0 1.5rem;
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-mid);
 }

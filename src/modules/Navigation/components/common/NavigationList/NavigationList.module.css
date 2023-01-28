@@ -5,9 +5,8 @@
 @media (min-width: 960px) {
     .list {
         width: 100%;
-        max-width: 60vw;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         padding: 5px;
         color: var(--base-color);
         font-size: var(--middle-text);

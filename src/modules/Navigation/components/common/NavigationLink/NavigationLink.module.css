@@ -8,7 +8,6 @@
 
 @media (min-width: 960px) {
     .item {
-        padding: 5px 0;
         font-weight: var(--fw-mid);
     }
 

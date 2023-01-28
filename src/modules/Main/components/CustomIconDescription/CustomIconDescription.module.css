@@ -2,12 +2,14 @@
     display: flex;
     align-items: center;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .container p {
     max-width: 150px;
     letter-spacing: 1px;
-    font-size: 15px;
+    font-size: 18px;
+    color: var(--secondary-color);
 }
 
 .borderIcon {
@@ -28,4 +30,11 @@
     left: 50%;
     top: 50%;
     translate: -50% -50%;
+}
+
+@media (min-width: 651px) {
+    .container {
+        flex-grow: 1;
+        margin-bottom: 0;
+    }
 }

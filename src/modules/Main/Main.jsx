@@ -8,6 +8,7 @@ function Main() {
     return (
         <div className={styles.wrapper} id="main">
             <div className={styles.container}>
+                <h3 className={styles.topText}>Обучение ЦАБ</h3>
                 <div className={styles.content}>
                     <div className={styles.imgContainer}>
                         <img src={mainBg} alt="" />
@@ -25,8 +26,8 @@ function Main() {
                         </h2>
                         <IconsSection />
                     </div>
-                    <CtaButton className={styles.btn}>Записаться</CtaButton>
                 </div>
+                <CtaButton className={styles.btn}>Записаться</CtaButton>
             </div>
         </div>
     )

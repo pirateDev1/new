@@ -1,43 +1,75 @@
 .wrapper {
     max-width: 100vw;
-    min-height: 30vh;
+    min-height: fit-content;
+    padding: 1.5rem;
+    background-color: var(--base-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: var(--base-color);
 }
 
-.mainComp {
+.content {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-areas:
+        "name phone"
+        "email email"
+        "idNumber idNumber";
+    margin-bottom: 20px;
 }
 
 .name {
     font-weight: var(--fw-mid);
     font-size: var(--fs-h3);
+    grid-area: name;
+    justify-self: center;
 }
 
 .phone {
     font-weight: var(--fw-mid);
     font-size: var(--fs-h3);
+    grid-area: phone;
+    justify-self: center;
 }
 
 .email {
     font-weight: var(--fw-mid);
     font-size: var(--fs-h3);
+    grid-area: email;
+    justify-self: center;
 }
 
 .idNumber {
     font-weight: var(--fw-mid);
     font-size: var(--fs-h5);
+    grid-area: idNumber;
+    justify-self: center;
 }
 
-.adrs {
+.copyright {
     text-align: center;
     font-size: var(--middle-text);
     color: rgba(0, 0, 0, 0.4);
     letter-spacing: 0.2px;
+}
+
+@media (min-width: 651px) {
+    .content {
+        grid-template-areas:
+            "name phone email"
+            "idNumber idNumber idNumber";
+    }
+}
+
+@media (min-width: 961px) {
+    .content {
+        grid-template-areas: "name phone email idNumber";
+    }
 }

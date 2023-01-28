@@ -4,6 +4,13 @@
     flex-shrink: 0;
     background-color: transparent;
     transition: all 200ms ease;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.cross:hover {
+    background-color: var(--primary-color);
+    color: var(--base-bg-color);
 }
 
 .opened {

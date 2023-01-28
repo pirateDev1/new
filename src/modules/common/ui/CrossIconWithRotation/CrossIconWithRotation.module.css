@@ -8,13 +8,15 @@
     cursor: pointer;
 }
 
-.cross:hover {
-    background-color: var(--primary-color);
-    color: var(--base-bg-color);
-}
-
 .opened {
     rotate: 90deg;
     color: var(--base-bg-color);
     background-color: var(--primary-color);
+}
+
+@media (min-width: 961px) {
+    .cross:hover {
+        background-color: var(--secondary-color);
+        color: var(--base-bg-color);
+    }
 }

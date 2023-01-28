@@ -1,5 +1,6 @@
 .logo {
+    width: 200px;
     color: var(--base-color);
     font-size: var(--middle-text);
-    margin-right: 150px;
+    margin-right: 80px;
 }

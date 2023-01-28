@@ -3,12 +3,13 @@ import styles from "./Main.module.css"
 import { mainBg } from "assets/pictures/main"
 import { IconsSection } from "./components/IconsSection"
 import { CtaButton } from "modules/common/components/CtaButton"
+import { Navigation } from "modules/Navigation"
 
 function Main() {
     return (
         <div className={styles.wrapper} id="main">
             <div className={styles.container}>
-                <h3 className={styles.topText}>Обучение ЦАБ</h3>
+                <Navigation />
                 <div className={styles.content}>
                     <div className={styles.imgContainer}>
                         <img src={mainBg} alt="" />

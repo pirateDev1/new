@@ -2,6 +2,7 @@ import { AnimatedModal } from "modules/common/ui/AnimatedModal"
 import React from "react"
 import styles from "./GratitudeModal.module.css"
 import { RxCross1 } from "react-icons/rx"
+import { AiOutlineCheckCircle } from "react-icons/ai"
 
 function GratitudeModal({ showGratitudeModal, setShowGratitudeModal }) {
     return (
@@ -14,9 +15,10 @@ function GratitudeModal({ showGratitudeModal, setShowGratitudeModal }) {
                 className={styles.close}
                 onClick={() => setShowGratitudeModal(false)}
             />
+            <AiOutlineCheckCircle className={styles.icon} />
             <p className={styles.info}>
-                Ваша заявка принята! С Вами свяжутся в ближайшее время! <br />
-                Спасибо за Ваше обоащение!
+                Ваша заявка принята!
+                <br /> С Вами свяжутся в ближайшее время!
             </p>
         </AnimatedModal>
     )

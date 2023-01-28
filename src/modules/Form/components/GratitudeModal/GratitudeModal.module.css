@@ -1,5 +1,5 @@
 .container {
-    max-width: 250px;
+    max-width: 400px;
     min-height: 200px;
     background-color: var(--modal-bg);
     color: var(--modal-text);
@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
     border-radius: 5px;
     position: relative;
     z-index: 2;
@@ -19,4 +19,18 @@
     right: 10px;
     font-size: 20px;
     z-index: 1000;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.icon {
+    color: var(--secondary-color);
+    font-size: 60px;
+    margin-bottom: 10px;
 }

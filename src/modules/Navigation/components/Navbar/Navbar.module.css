@@ -2,7 +2,7 @@
     display: none;
 }
 
-@media (min-width: 980px) {
+@media (min-width: 960px) {
     .container {
         width: 100%;
         max-width: 100vw;
@@ -20,7 +20,7 @@
     }
 
     .btn {
-        max-width: 150px;
+        max-width: 100px;
         padding: 3px;
         font-size: var(--middle-text);
     }

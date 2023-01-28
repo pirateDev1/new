@@ -1,0 +1,15 @@
+.list {
+    list-style: none;
+}
+
+@media (min-width: 960px) {
+    .list {
+        width: 100%;
+        max-width: 60vw;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        color: var(--base-color);
+        font-size: var(--middle-text);
+    }
+}

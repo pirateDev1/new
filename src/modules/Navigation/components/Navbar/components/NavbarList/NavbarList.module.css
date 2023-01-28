@@ -1,9 +1,0 @@
-.list {
-    width: 100%;
-    max-width: 45vw;
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-    color: var(--base-color);
-    font-size: var(--middle-text);
-}

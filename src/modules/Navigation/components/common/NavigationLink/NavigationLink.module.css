@@ -1,0 +1,18 @@
+.item {
+    padding: 5px 0;
+}
+
+.item:hover {
+    color: var(--primary-color);
+}
+
+@media (min-width: 960px) {
+    .item {
+        padding: 5px 0;
+        font-weight: var(--fw-mid);
+    }
+
+    .item:hover {
+        color: var(--primary-color);
+    }
+}

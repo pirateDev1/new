@@ -3,6 +3,9 @@ import styles from "./EducationDescription.module.css"
 
 import { CrossIconWithRotation } from "modules/common/ui/CrossIconWithRotation"
 import { AnimatedDropdown } from "modules/common/ui/AnimatedDropdown"
+import { BrParagraph } from "modules/common/components/BrParagraph"
+import { TypographyList } from "modules/common/components/TypographyList"
+import { EducationDescriptionList } from "../EducationDescriptionList"
 
 export default function EducationDescription({ data, isSelected, onClick }) {
     const { lesson, title, desc } = data
@@ -18,7 +21,7 @@ export default function EducationDescription({ data, isSelected, onClick }) {
             </div>
 
             <AnimatedDropdown opened={isSelected}>
-                <p className={styles.description}>{desc}</p>
+                <EducationDescriptionList data={desc} />
             </AnimatedDropdown>
         </li>
     )

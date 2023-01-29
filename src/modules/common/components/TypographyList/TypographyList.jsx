@@ -1,21 +1,26 @@
 import React from "react"
 
-function TypographyList({ data, wrapperClassName, itemClassName }) {
+function TypographyList({ data, variant, wrapperClassName, itemClassName }) {
     if (!Array.isArray(data)) {
         return null
     }
 
-    return (
-        <ul className={wrapperClassName}>
-            {data.map((item, index) => {
-                return (
-                    <li className={itemClassName} key={`li${index}`}>
-                        {item}
-                    </li>
-                )
-            })}
-        </ul>
-    )
+    const typography = data.map((item, index) => {
+        return (
+            <li className={itemClassName} key={`li${index}`}>
+                {item}
+            </li>
+        )
+    })
+
+    switch (variant) {
+        case "ul":
+            return <ul className={wrapperClassName}>{typography}</ul>
+        case "ol":
+            return <ol className={wrapperClassName}>{typography}</ol>
+        default:
+            return <ul className={wrapperClassName}>{typography}</ul>
+    }
 }
 
 export default TypographyList

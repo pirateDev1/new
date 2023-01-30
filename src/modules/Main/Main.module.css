@@ -111,6 +111,7 @@
 @media (min-width: 961px) {
     .container {
         height: fit-content;
+        /* min-height: 800px; */
     }
 
     .middleText {

@@ -1,5 +1,5 @@
 .cross {
-    transform: rotate(45deg);
+    rotate: 45deg;
     border-radius: 50%;
     flex-shrink: 0;
     background-color: transparent;
@@ -9,7 +9,7 @@
 }
 
 .opened {
-    transform: rotate(90deg);
+    rotate: 90deg;
     color: var(--base-bg-color);
     background-color: var(--primary-color);
 }

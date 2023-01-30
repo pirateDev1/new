@@ -118,6 +118,15 @@
         letter-spacing: 0;
     }
 
+    .title {
+        min-width: 700px;
+        min-height: 300px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .content {
         flex-direction: row-reverse;
         max-width: 100%;

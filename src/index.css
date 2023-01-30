@@ -76,7 +76,7 @@ body {
 
 @media (min-width: 1201px) {
     :root {
-        --fs-xl: 63px;
+        --fs-xl: 60px;
     }
 }
 

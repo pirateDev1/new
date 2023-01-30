@@ -14,7 +14,10 @@ export default function EducationDescription({ data, isSelected, onClick }) {
                     <span className="bold">{lesson}</span> {title}
                 </p>
 
-                <CrossIconWithRotation isOpened={isSelected} />
+                <CrossIconWithRotation
+                    isOpened={isSelected}
+                    onClick={onClick}
+                />
             </div>
 
             <AnimatedDropdown opened={isSelected}>

@@ -1,10 +1,11 @@
 import React from "react"
-import { Form } from "modules/Form"
-import { Education } from "modules/Education"
 import { Main } from "modules/Main"
-import { Reviews } from "modules/Reviews"
+import { Education } from "modules/Education"
 import { Staff } from "modules/Staff"
+import { Reviews } from "modules/Reviews"
+import { Form } from "modules/Form"
 import { Footer } from "modules/Footer"
+import { Offer } from "modules/Offer"
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             <Main />
             <Education />
             <Staff />
+            <Offer />
             <Reviews />
             <Form />
             <Footer />

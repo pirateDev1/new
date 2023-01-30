@@ -6,7 +6,9 @@ import styles from "./EducationList.module.css"
 function EducationList() {
     const [selectedOption, setSelectedOption] = useState(-1)
 
-    function clickHandler(i) {
+    function clickHandler(e, i) {
+        e.stopPropagation()
+
         if (selectedOption === i) {
             setSelectedOption(-1)
         } else {
@@ -23,7 +25,7 @@ function EducationList() {
                         key={item.id}
                         data={item}
                         index={index}
-                        onClick={() => clickHandler(index)}
+                        onClick={e => clickHandler(e, index)}
                         isSelected={isSelected}
                     />
                 )

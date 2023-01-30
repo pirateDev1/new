@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "./IconsSection.module.css"
-import { CustomIconDescription } from "../CustomIconDescription"
+import { CustomIconDescription } from "modules/common/components/CustomIconDescription"
 import { rubleImg, timeImg } from "assets/pictures/main"
 
 function IconsSection() {

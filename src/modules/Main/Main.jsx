@@ -28,7 +28,9 @@ function Main() {
                         <IconsSection />
                     </div>
                 </div>
-                <CtaButton className={styles.btn}>Записаться</CtaButton>
+                <div className={styles.btnContainer}>
+                    <CtaButton>Записаться</CtaButton>
+                </div>
             </div>
         </div>
     )

@@ -1,6 +1,6 @@
-import review1 from "./review1.jpg"
-import review2 from "./review2.jpg"
-import review3 from "./review3.jpg"
-import review4 from "./review4.jpg"
+import review1 from "./1rev.jpg"
+import review2 from "./2rev.jpg"
+import review3 from "./3rev.jpg"
+import review4 from "./4rev.jpg"
 
 export { review1, review2, review3, review4 }

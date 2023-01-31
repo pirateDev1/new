@@ -57,8 +57,10 @@
     flex-grow: 1.7;
 }
 
-.btn {
-    margin: 0 auto 1em;
+.btnContainer {
+    padding: 0 1.5rem 1em;
+    display: flex;
+    justify-content: center;
 }
 
 @media (min-width: 481px) {
@@ -109,11 +111,20 @@
 @media (min-width: 961px) {
     .container {
         height: fit-content;
+        min-height: 600px;
     }
 
     .middleText {
         font-size: 22px;
         letter-spacing: 0;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        width: max-content;
     }
 
     .content {
@@ -123,8 +134,7 @@
 
     .imgContainer {
         position: relative;
-        transform: scale(1.5);
-        transform-origin: right;
+        z-index: 1;
     }
 
     .btn {

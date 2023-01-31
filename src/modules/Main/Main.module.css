@@ -111,6 +111,7 @@
 @media (min-width: 961px) {
     .container {
         height: fit-content;
+        min-height: 600px;
     }
 
     .middleText {
@@ -119,12 +120,11 @@
     }
 
     .title {
-        min-width: 700px;
-        min-height: 300px;
-
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+        width: max-content;
     }
 
     .content {
@@ -134,8 +134,7 @@
 
     .imgContainer {
         position: relative;
-        transform: scale(1.5);
-        transform-origin: right;
+        z-index: 1;
     }
 
     .btn {

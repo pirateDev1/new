@@ -53,7 +53,7 @@ body {
 
     --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
-    --fs-xl: 26px;
+    --fs-xl: 32px;
 }
 
 @media (min-width: 481px) {

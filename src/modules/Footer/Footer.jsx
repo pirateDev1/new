@@ -6,18 +6,15 @@ export default function Footer() {
         <footer className={styles.wrapper} id="footer">
             <div className={styles.container}>
                 <div className={styles.content}>
-                    <p className={styles.name}>Crypto-School</p>
-                    <p className={styles.phone}>7 (987) 228-28-28</p>
+                    <p className={styles.logo}>Logo</p>
+                    <p className={styles.name}>Crypto Vision</p>
+                    <p className={styles.phone}>7 (928) 407-64-40</p>
 
-                    <p className={styles.email}>info@crypto.ru</p>
-                    <p className={styles.idNumber}>
-                        ИП Глазов М.С., ИНН: 631214905156
-                    </p>
+                    <p className={styles.email}>info@cryptovision.ru</p>
                 </div>
                 <p className={styles.copyright}>
-                    © ООО «ЦМТ ЦИФРОВАЯ АКАДЕМИЯ БУДУЩЕГО», Москва,
-                    Краснопресненская набережная 12, этаж 16, помещ. 1648В, ИНН:
-                    9703025541
+                    2018 - 2023 © cryptovision GmbH, Москва, Краснопресненская
+                    набережная 10, этаж 11, помещ. 1648В
                 </p>
             </div>
         </footer>

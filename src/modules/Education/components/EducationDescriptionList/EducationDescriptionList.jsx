@@ -8,7 +8,7 @@ function EducationDescriptionList({ data }) {
             {data.map((item, index) => {
                 const { subtitle, listItems } = item
                 return (
-                    <div key={index}>
+                    <div key={index} className={styles.wrapper}>
                         <h4>{subtitle}</h4>
                         <TypographyList
                             data={listItems}

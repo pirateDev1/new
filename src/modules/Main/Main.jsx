@@ -16,7 +16,7 @@ function Main() {
                     </div>
                     <div className={styles.infoContainer}>
                         <p className={styles.middleText}>
-                            Обучающий курс по заработку на криптовалюте
+                            Гибридное образование с практическим уклоном
                         </p>
                         <h2 className={styles.title}>
                             Онлайн обучение

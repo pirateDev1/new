@@ -9,7 +9,7 @@ export default function Education() {
             <div className={styles.container}>
                 <h2 className={styles.title}>
                     Программа обучения —{" "}
-                    <span className="accent-primary">5 дней</span>
+                    <span className="accent-primary">7 дней</span>
                 </h2>
                 <EducationList />
                 <CtaButton className={styles.btn}>Записаться</CtaButton>

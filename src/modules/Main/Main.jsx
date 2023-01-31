@@ -16,13 +16,15 @@ function Main() {
                     </div>
                     <div className={styles.infoContainer}>
                         <p className={styles.middleText}>
-                            Гибридное образование с практическим уклоном
+                            Обучающий курс по заработку на криптовалюте
                         </p>
                         <h2 className={styles.title}>
-                            Обучаем цифровым профессиям будущего
+                            Онлайн обучение
+                            <br />
+                            по заработку
                             <br />
                             <span className="accent-secondary">
-                                в сфере Web 3.0
+                                на криптовалюте
                             </span>
                         </h2>
                         <IconsSection />

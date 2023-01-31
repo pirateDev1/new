@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { ReviewHeader } from "../ReviewHeader"
 import { ReviewModal } from "../ReviewModal"
+import { BrParagraph } from "modules/common/components/BrParagraph"
 import styles from "./ReviewsSwiperSlide.module.css"
 
 function ReviewsSwiperSlide({ data }) {
@@ -21,11 +22,9 @@ function ReviewsSwiperSlide({ data }) {
             <div className={styles.container} onClick={clickHandler}>
                 <ReviewHeader data={data} />
                 <div className={styles.review}>
-                    <p
-                        dangerouslySetInnerHTML={{
-                            __html: review.replace(/\n/g, "<br />"),
-                        }}
-                    />
+                    <BrParagraph className={styles.paragraph}>
+                        {review}
+                    </BrParagraph>
                 </div>
             </div>
         </>

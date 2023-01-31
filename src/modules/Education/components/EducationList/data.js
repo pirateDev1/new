@@ -89,7 +89,7 @@ export const educationData = [
         title: "Безопасность в мире криптовалют",
         desc: [
             {
-                subtitle: "Subtitle",
+                subtitle: "",
                 listItems: [
                     "Oткрытые и закрытые ключи",
                     "Протокол SSL",
@@ -111,7 +111,7 @@ export const educationData = [
         title: "Инструменты для работы",
         desc: [
             {
-                subtitle: "Subtitle",
+                subtitle: "",
                 listItems: [
                     "Создадите Ваш первый децентрализованный кошелёк.",
                     "Создадите собственный аккаунт на централизованных биржах (Binance, Bybit, OKX).",
@@ -126,7 +126,7 @@ export const educationData = [
         title: "Актуальные виды заработка на криптовалюте",
         desc: [
             {
-                subtitle: "Subtitle",
+                subtitle: "",
                 listItems: [
                     "Традиционный трейдинг и его автоматизация.",
                     "Стейкинг и его виды.",
@@ -141,7 +141,7 @@ export const educationData = [
         title: "Практика",
         desc: [
             {
-                subtitle: "Subtitle",
+                subtitle: "",
                 listItems: [
                     "Пополнение собственных криптовалютных кошельков.",
                     "Переводы активов между кошельками и биржами.",

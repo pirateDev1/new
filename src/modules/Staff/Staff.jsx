@@ -8,7 +8,7 @@ function Staff() {
         <div className={styles.wrapper} id="staff">
             <div className={styles.container}>
                 <h2 className={styles.title}>
-                    Преподаватели —{" "}
+                    Наши сотрудники —{" "}
                     <span className="accent-primary">
                         ЭКСПЕРТЫ из МГИМО, МГУ, ВШЭ
                     </span>

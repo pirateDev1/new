@@ -23,6 +23,7 @@
         "email email"
         "phone phone";
     margin-bottom: 20px;
+    align-items: center;
 }
 
 .name {

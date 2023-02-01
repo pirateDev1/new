@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/new/static/css/main.1fb960e8.css",
-    "main.js": "/new/static/js/main.a102c9b8.js",
-    "static/media/review1.jpg": "/new/static/media/review1.8d9cab10a388a81a7ca3.jpg",
-    "static/media/staff1.jpg": "/new/static/media/staff1.8d9cab10a388a81a7ca3.jpg",
-    "static/media/review2.jpg": "/new/static/media/review2.6bd1188f875e018e0f6a.jpg",
-    "static/media/staff2.jpg": "/new/static/media/staff2.6bd1188f875e018e0f6a.jpg",
-    "static/media/review3.jpg": "/new/static/media/review3.6a241e5e5527b5bdd2c7.jpg",
-    "static/media/staff3.jpg": "/new/static/media/staff3.6a241e5e5527b5bdd2c7.jpg",
-    "static/media/review4.jpg": "/new/static/media/review4.ee7f70e9e7ec0e2f60cf.jpg",
-    "static/media/staff4.jpg": "/new/static/media/staff4.ee7f70e9e7ec0e2f60cf.jpg",
+    "main.css": "/new/static/css/main.ea77e07f.css",
+    "main.js": "/new/static/js/main.ce339432.js",
+    "static/media/1.jpg": "/new/static/media/1.116bcf9c918864be8bbf.jpg",
+    "static/media/1rev.jpg": "/new/static/media/1rev.419dad3f094172abd868.jpg",
+    "static/media/2.jpg": "/new/static/media/2.e2e88710d23941b5e4f0.jpg",
+    "static/media/2rev.jpg": "/new/static/media/2rev.751584ea7f730313f279.jpg",
+    "static/media/3.jpg": "/new/static/media/3.cfe44a682cdb849e312b.jpg",
+    "static/media/4rev.jpg": "/new/static/media/4rev.5677b732b65eb0ebc0ba.jpg",
+    "static/media/7.jpg": "/new/static/media/7.32eee3c955c2949eac31.jpg",
     "static/media/header-image-dark.png": "/new/static/media/header-image-dark.832671b7e62bb569ee63.png",
+    "static/media/4.jpg": "/new/static/media/4.a665b57b463afb9c0f51.jpg",
+    "static/media/6.jpg": "/new/static/media/6.9b030349de3c502f7676.jpg",
+    "static/media/5.jpg": "/new/static/media/5.5f77511b08f8f85b1291.jpg",
+    "static/media/3rev.jpg": "/new/static/media/3rev.203211647c29436d11bf.jpg",
     "static/media/round-border-2.png": "/new/static/media/round-border-2.737e0f56f953e82927a1.png",
     "static/media/offer5.png": "/new/static/media/offer5.2d4a19b3e7d55ca18486.png",
     "static/media/offer2.png": "/new/static/media/offer2.c8065f27a381858fd2a7.png",
     "index.html": "/new/index.html",
-    "main.1fb960e8.css.map": "/new/static/css/main.1fb960e8.css.map",
-    "main.a102c9b8.js.map": "/new/static/js/main.a102c9b8.js.map"
+    "main.ea77e07f.css.map": "/new/static/css/main.ea77e07f.css.map",
+    "main.ce339432.js.map": "/new/static/js/main.ce339432.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fb960e8.css",
-    "static/js/main.a102c9b8.js"
+    "static/css/main.ea77e07f.css",
+    "static/js/main.ce339432.js"
   ]
 }

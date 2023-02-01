@@ -1,9 +1,12 @@
-import React, { useState } from "react"
+import React, { useRef, useState } from "react"
+import emailjs from "@emailjs/browser"
 import styles from "./Form.module.css"
 import { Button } from "modules/common/ui/Button"
 import { GratitudeModal } from "./components/GratitudeModal"
 
 export default function Form() {
+    const formRef = useRef()
+
     const [name, setName] = useState("")
     const [phone, setPhone] = useState("")
     const [showGratitudeModal, setShowGratitudeModal] = useState(false)
@@ -14,6 +17,28 @@ export default function Form() {
         e.preventDefault()
         setName(e.target.value)
         setNameError(false)
+    }
+
+    const sendEmail = () => {
+        emailjs
+            .sendForm(
+                process.env.REACT_APP_SERVICE_ID,
+                process.env.REACT_APP_TEMPLATE_ID,
+                formRef.current,
+                process.env.REACT_APP_USER_ID
+            )
+            .then(
+                result => {
+                    setShowGratitudeModal(true)
+                    setName("")
+                    setPhone("")
+                    setNameError(false)
+                    setPhoneError(false)
+                },
+                error => {
+                    console.log(error.text)
+                }
+            )
     }
 
     const formatPhone = phone => {
@@ -45,11 +70,7 @@ export default function Form() {
             return
         }
 
-        setShowGratitudeModal(true)
-        setName("")
-        setPhone("")
-        setNameError(false)
-        setPhoneError(false)
+        sendEmail()
     }
 
     return (
@@ -59,7 +80,11 @@ export default function Form() {
                     showGratitudeModal={showGratitudeModal}
                     setShowGratitudeModal={setShowGratitudeModal}
                 />
-                <form onSubmit={submitHandler} className={styles.form}>
+                <form
+                    onSubmit={submitHandler}
+                    className={styles.form}
+                    ref={formRef}
+                >
                     <div className={styles.formContainer}>
                         <p className={styles.title}>Оставить заявку</p>
                         <div className={styles.inputWrap}>
@@ -68,6 +93,7 @@ export default function Form() {
                                     nameError ? styles.inpError : ""
                                 }`}
                                 type="text"
+                                name="name"
                                 value={name}
                                 onChange={handleNameChange}
                                 placeholder="Введите Ваше имя"
@@ -84,6 +110,7 @@ export default function Form() {
                                     phoneError ? styles.inpError : ""
                                 }`}
                                 type="text"
+                                name="phone"
                                 value={phone}
                                 onChange={handlePhoneChange}
                                 placeholder="Введите Ваш телефон"

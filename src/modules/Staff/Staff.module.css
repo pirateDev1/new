@@ -1,0 +1,26 @@
+.wrapper {
+    background-color: var(--base-bg-color);
+    color: var(--base-color);
+    padding: 2em 0;
+    margin-bottom: -1px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-mid);
+    padding: 0 1.5rem;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btnContainer {
+    padding: 0 1.5rem 1em;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,17 @@
+.container {
+    padding: 20px 0;
+}
+
+.swiper {
+    cursor: grab;
+    height: 100%;
+}
+
+.slide {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}

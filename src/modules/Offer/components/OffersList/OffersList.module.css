@@ -1,0 +1,87 @@
+.list {
+    display: grid;
+    grid-template-areas:
+        "offer1"
+        "offer2"
+        "offer3"
+        "offer4"
+        "offer5"
+        "offer6";
+    width: 100%;
+    grid-row-gap: 20px;
+}
+
+.list > * {
+    justify-content: center;
+}
+
+.wrapper1 {
+    grid-area: offer1;
+}
+
+.wrapper2 {
+    grid-area: offer2;
+}
+
+.wrapper3 {
+    grid-area: offer3;
+}
+
+.wrapper4 {
+    grid-area: offer4;
+}
+
+.wrapper5 {
+    grid-area: offer5;
+}
+
+.wrapper6 {
+    grid-area: offer6;
+}
+
+.text {
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    max-width: 60%;
+}
+
+@media (min-width: 651px) {
+    .list {
+        grid-template-areas:
+            "offer1 offer1 ."
+            ". offer2 offer2"
+            "offer3 offer3 ."
+            ". offer4 offer4"
+            "offer5 offer5 ."
+            ". offer6 offer6";
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 961px) {
+    .list {
+        grid-template-areas:
+            "offer1 offer2"
+            "offer3 offer4"
+            "offer5 offer6";
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .text {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1201px) {
+    .list {
+        grid-template-areas:
+            "offer1 offer2 offer3"
+            "offer4 offer5 offer6";
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

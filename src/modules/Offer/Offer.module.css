@@ -1,0 +1,18 @@
+.wrapper {
+    background-color: var(--base-bg-color);
+    padding-bottom: 10px;
+    margin-bottom: -1px;
+}
+
+.container {
+    padding: 1rem 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    color: var(--base-color);
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-mid);
+    margin-bottom: 30px;
+}

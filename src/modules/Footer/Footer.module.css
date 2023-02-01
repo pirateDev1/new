@@ -1,0 +1,76 @@
+.wrapper {
+    max-width: 100vw;
+    min-height: fit-content;
+    padding: 1.5rem;
+    background-color: var(--base-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-areas:
+        "logo name"
+        "email email"
+        "phone phone";
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.name {
+    font-weight: var(--fw-mid);
+    font-size: var(--fs-h3);
+    grid-area: name;
+    justify-self: center;
+}
+
+.phone {
+    font-weight: var(--fw-mid);
+    font-size: var(--fs-h3);
+    grid-area: phone;
+    justify-self: center;
+}
+
+.email {
+    font-weight: var(--fw-mid);
+    font-size: var(--fs-h3);
+    grid-area: email;
+    justify-self: center;
+}
+
+.logo {
+    font-weight: var(--fw-mid);
+    font-size: var(--fs-h5);
+    grid-area: logo;
+    justify-self: center;
+}
+
+.copyright {
+    text-align: center;
+    font-size: var(--middle-text);
+    color: rgba(0, 0, 0, 0.4);
+    letter-spacing: 0.2px;
+}
+
+@media (min-width: 651px) {
+    .content {
+        grid-template-areas:
+            "logo name email"
+            "phone phone phone";
+    }
+}
+
+@media (min-width: 961px) {
+    .content {
+        grid-template-areas: "logo name phone email";
+    }
+}

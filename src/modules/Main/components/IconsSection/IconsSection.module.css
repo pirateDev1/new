@@ -1,0 +1,13 @@
+.container {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+@media (min-width: 651px) {
+    .container {
+        flex-grow: 0;
+        flex-direction: row;
+    }
+}

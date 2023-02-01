@@ -1,10 +1,22 @@
 import React from "react"
-import { FirstScreen } from "modules/main/components/FirstScreen"
+import { Main } from "modules/Main"
+import { Education } from "modules/Education"
+import { Staff } from "modules/Staff"
+import { Reviews } from "modules/Reviews"
+import { Form } from "modules/Form"
+import { Footer } from "modules/Footer"
+import { Offer } from "modules/Offer"
 
 function App() {
     return (
         <div>
-            <FirstScreen />
+            <Main />
+            <Education />
+            <Staff />
+            <Offer />
+            <Reviews />
+            <Form />
+            <Footer />
         </div>
     )
 }

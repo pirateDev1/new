@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.text {
+    max-width: 150px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
+.borderIcon {
+    position: relative;
+    margin-right: 1em;
+    width: 75px;
+    height: 75px;
+    flex-shrink: 0;
+}
+
+.border {
+    width: 100%;
+}
+
+.icon {
+    width: 100%;
+    max-width: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (min-width: 651px) {
+    .container {
+        flex-grow: 1;
+        margin-bottom: 0;
+    }
+}

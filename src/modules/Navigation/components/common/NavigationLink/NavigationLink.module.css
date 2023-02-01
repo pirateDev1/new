@@ -1,0 +1,17 @@
+.item {
+    padding: 5px 0;
+}
+
+.item:hover {
+    color: var(--primary-color);
+}
+
+@media (min-width: 961px) {
+    .item {
+        font-weight: var(--fw-mid);
+    }
+
+    .item:hover {
+        color: var(--primary-color);
+    }
+}

@@ -5,6 +5,7 @@
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    margin-bottom: -1px;
 }
 
 .wave svg {

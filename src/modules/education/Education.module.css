@@ -1,5 +1,6 @@
 .wrapper {
     background-color: var(--base-bg-color);
+    margin-bottom: -1px;
 }
 
 .container {

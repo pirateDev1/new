@@ -2,6 +2,7 @@
     background-color: var(--base-bg-color);
     color: var(--base-color);
     padding: 2em 0;
+    margin-bottom: -1px;
 }
 
 .container {

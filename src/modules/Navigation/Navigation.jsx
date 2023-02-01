@@ -8,7 +8,9 @@ function Navigation() {
     return (
         <div className={styles.wrapper}>
             <div className={styles.container}>
-                <Logo />
+                <div className={styles.logoContainer}>
+                    <Logo />
+                </div>
                 <Navbar />
                 <Burger />
             </div>

@@ -1,4 +1,3 @@
-import logoLight from "./logo-png.png"
-import logoDark from "./logo-png-dark.png"
+import logo from "./logo.png"
 
-export { logoLight, logoDark }
+export { logo }

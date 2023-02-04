@@ -7,7 +7,7 @@ function Offer() {
         <div className={styles.wrapper}>
             <div className={styles.container}>
                 <h3 className={styles.title}>
-                    Команда ЦАБ{" "}
+                    Crypto Vision{" "}
                     <span className="accent-primary">предоставляет</span>:
                 </h3>
                 <OffersList />

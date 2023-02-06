@@ -121,7 +121,8 @@ export default function Form() {
                                 </p>
                             )}
                         </div>
-                        <Button className={styles.btn}>Записаться</Button>
+                        <div className={styles.formBtn}><Button className={styles.btn}>Записаться</Button>
+                        <p className={styles.freeOffer}>*Бесплатно, до 28 февраля</p></div>                        
                     </div>
                 </form>
             </div>

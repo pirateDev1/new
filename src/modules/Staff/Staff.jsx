@@ -16,7 +16,7 @@ function Staff() {
                 </h2>
                 <StaffSwiper />
                 <div className={styles.btnContainer}>
-                    <CtaButton>Записаться</CtaButton>
+                    <CtaButton>Записаться бесплатно</CtaButton>
                 </div>
             </div>
         </div>

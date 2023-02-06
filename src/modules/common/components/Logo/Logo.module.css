@@ -1,0 +1,23 @@
+.logo {
+    width: 40px;
+    color: var(--base-color);
+    font-size: var(--middle-text);
+    margin-right: 80px;
+
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 5px;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+}
+
+.darkText {
+    color: black;
+}

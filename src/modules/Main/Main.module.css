@@ -2,6 +2,7 @@
     min-height: 100vh;
     background-color: var(--base-bg-color);
     color: var(--base-color);
+    margin-bottom: -1px;
 }
 
 .container {
@@ -25,7 +26,7 @@
 }
 
 .title {
-    font-size: var(--big-text);
+    font-size: var(--fs-xl);
     font-weight: var(--fw-mid);
 }
 
@@ -98,6 +99,7 @@
 
     .middleText {
         font-size: 20px;
+        width: max-content;
         max-width: 100%;
         margin-bottom: 1rem;
     }
@@ -114,17 +116,16 @@
         min-height: 600px;
     }
 
-    .middleText {
-        font-size: 22px;
-        letter-spacing: 0;
-    }
-
     .title {
         display: flex;
         flex-direction: column;
         justify-content: center;
-
         width: max-content;
+    }
+
+    .middleText {
+        font-size: 22px;
+        letter-spacing: 0;
     }
 
     .content {

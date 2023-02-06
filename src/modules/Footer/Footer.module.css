@@ -19,10 +19,11 @@
     display: grid;
     grid-row-gap: 10px;
     grid-template-areas:
-        "name phone"
+        "logo name"
         "email email"
-        "idNumber idNumber";
+        "phone phone";
     margin-bottom: 20px;
+    align-items: center;
 }
 
 .name {
@@ -46,10 +47,10 @@
     justify-self: center;
 }
 
-.idNumber {
+.logo {
     font-weight: var(--fw-mid);
     font-size: var(--fs-h5);
-    grid-area: idNumber;
+    grid-area: logo;
     justify-self: center;
 }
 
@@ -63,13 +64,13 @@
 @media (min-width: 651px) {
     .content {
         grid-template-areas:
-            "name phone email"
-            "idNumber idNumber idNumber";
+            "logo name email"
+            "phone phone phone";
     }
 }
 
 @media (min-width: 961px) {
     .content {
-        grid-template-areas: "name phone email idNumber";
+        grid-template-areas: "logo name phone email";
     }
 }

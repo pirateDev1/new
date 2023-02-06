@@ -1,13 +1,16 @@
 import React from "react"
 import styles from "./Navigation.module.css"
 
-import { Burger, Logo, Navbar } from "./components"
+import { Burger, Navbar } from "./components"
+import { Logo } from "modules/common/components/Logo"
 
 function Navigation() {
     return (
         <div className={styles.wrapper}>
             <div className={styles.container}>
-                <Logo />
+                <div className={styles.logoContainer}>
+                    <Logo />
+                </div>
                 <Navbar />
                 <Burger />
             </div>

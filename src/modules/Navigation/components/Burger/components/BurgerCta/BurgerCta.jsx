@@ -12,7 +12,7 @@ function BurgerCta({ closeClickHandler }) {
                 под рукой
             </p>
             <CtaButton variant="outlined" onClick={closeClickHandler}>
-                Заказать
+                Записаться
             </CtaButton>
         </div>
     )

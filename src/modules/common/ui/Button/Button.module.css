@@ -13,12 +13,8 @@
     border-color: none;
     color: var(--btn-text);
     background-color: var(--primary-color);
-}
-
-.outlined {
-    border: 1px solid var(--primary-color);
-    color: var(--base-color);
-    background-color: inherit;
+    background-image: none;
+    transition: all 1s ease;
 }
 
 .filled:hover {
@@ -26,6 +22,12 @@
     color: var(--btn-text);
     background-color: var(--gradient-bg);
     background-image: var(--gradient-color);
+}
+
+.outlined {
+    border: 1px solid var(--primary-color);
+    color: var(--base-color);
+    background-color: inherit;
 }
 
 .text {

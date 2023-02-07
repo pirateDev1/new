@@ -10,7 +10,7 @@
 }
 
 .filled {
-    border: 1px solid var(--primary-color);
+    border-color: none;
     color: var(--btn-text);
     background-color: var(--primary-color);
 }
@@ -22,15 +22,10 @@
 }
 
 .filled:hover {
-    background-color: var(--hover-btn-color);
-    border-color: var(--hover-btn-color);
+    border-color: none;
     color: var(--btn-text);
-}
-
-.outlined:hover {
-    border-color: var(--hover-btn-color);
-    background-color: var(--hover-btn-color);
-    color: var(--btn-text);
+    background-color: var(--gradient-bg);
+    background-image: var(--gradient-color);
 }
 
 .text {

@@ -1,39 +1,39 @@
 .btn {
-  width: 100%;
-  max-width: 350px;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 20px;
-  font-weight: 500;
-  cursor: pointer;
-  font-family: inherit;
+    width: 100%;
+    max-width: 350px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: inherit;
 }
 
 .filled {
-  border-color: none;
-  color: var(--btn-text);
-  background-color: var(--primary-color);
+    border-color: none;
+    color: var(--btn-text);
+    background-color: var(--primary-color);
 }
 
 .outlined {
-  border: 1px solid var(--primary-color);
-  color: var(--base-color);
-  background-color: inherit;
+    border: 1px solid var(--primary-color);
+    color: var(--base-color);
+    background-color: inherit;
 }
 
 .filled:hover {
-  border-color: none;
-  color: var(--btn-text);
-  background-color: var(--gradient-bg);
-  background-image: var(--gradient-color);
+    border-color: none;
+    color: var(--btn-text);
+    background-color: var(--gradient-bg);
+    background-image: var(--gradient-color);
 }
 
 .text {
-  border: none;
-  color: var(--base-color);
-  background-color: transparent;
+    border: none;
+    color: var(--base-color);
+    background-color: transparent;
 }
 
 .text:hover {
-  color: var(--secondary-color);
+    color: var(--secondary-color);
 }

@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useLayoutEffect } from "react"
 import styles from "./Main.module.css"
 import { mainBg } from "assets/pictures/main"
 import { IconsSection } from "./components/IconsSection"
@@ -6,6 +6,14 @@ import { CtaButton } from "modules/common/components/CtaButton"
 import { Navigation } from "modules/Navigation"
 
 function Main() {
+    useLayoutEffect(() => {
+        const documentHeight = () => {
+            const doc = document.documentElement
+            doc.style.setProperty("--doc-height", `${window.innerHeight}px`)
+        }
+        documentHeight()
+    }, [])
+
     return (
         <div className={styles.wrapper} id="main">
             <div className={styles.container}>

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react"
+import React, { useEffect, useRef, useState } from "react"
 import emailjs from "@emailjs/browser"
 import styles from "./Form.module.css"
 import { Button } from "modules/common/ui/Button"
@@ -6,13 +6,30 @@ import { GratitudeModal } from "./components/GratitudeModal"
 import { FreeOffer } from "modules/common/components/FreeOffer"
 
 export default function Form() {
-    const formRef = useRef()
-
     const [name, setName] = useState("")
     const [phone, setPhone] = useState("")
     const [showGratitudeModal, setShowGratitudeModal] = useState(false)
     const [nameError, setNameError] = useState(false)
     const [phoneError, setPhoneError] = useState(false)
+
+    const formRef = useRef()
+
+    const [formContact, setFormContact] = useState(false)
+
+    useEffect(() => {
+        document.querySelector("#nameInput").focus({ preventScroll: true })
+    }, [formContact])
+
+    useEffect(() => {
+        function formContacted() {
+            const formEl = document.querySelector("#form")
+            const rect = formEl.getBoundingClientRect()
+            if (rect.top < window.innerHeight) {
+                setFormContact(true)
+            }
+        }
+        window.addEventListener("scroll", formContacted)
+    }, [])
 
     const handleNameChange = e => {
         e.preventDefault()
@@ -90,6 +107,7 @@ export default function Form() {
                         <p className={styles.title}>Оставить заявку</p>
                         <div className={styles.inputWrap}>
                             <input
+                                id="nameInput"
                                 className={`${styles.inputs} ${
                                     nameError ? styles.inpError : ""
                                 }`}

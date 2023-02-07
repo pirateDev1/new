@@ -10,11 +10,10 @@ import { Offer } from "modules/Offer"
 function App() {
     return (
         <div>
-            {/*  <Main />
-      <Education />
-      <Staff />
-      <Offer />
-      */}
+            <Main />
+            <Education />
+            <Staff />
+            <Offer />
             <Reviews />
             <Form />
             <Footer />

@@ -1,4 +1,5 @@
 import { CtaButton } from "modules/common/components/CtaButton"
+import { FreeOffer } from "modules/common/components/FreeOffer"
 import React from "react"
 import styles from "./BurgerCta.module.css"
 
@@ -14,6 +15,7 @@ function BurgerCta({ closeClickHandler }) {
             <CtaButton variant="outlined" onClick={closeClickHandler}>
                 Записаться
             </CtaButton>
+            <FreeOffer />
         </div>
     )
 }

@@ -1,0 +1,11 @@
+.text {
+  max-width: 150px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  color: var(--secondary-color);
+}
+
+.price {
+  color: orangered;
+  text-decoration: line-through;
+}

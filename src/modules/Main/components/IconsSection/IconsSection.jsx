@@ -5,12 +5,15 @@ import { rubleImg, timeImg } from "assets/pictures/main"
 import { OfferMain } from "./components"
 
 function IconsSection() {
-  return (
-    <div className={styles.container}>
-      <CustomIconDescription element={<OfferMain />} img={rubleImg} />
-      <CustomIconDescription text="Длительность курса 7 дней" img={timeImg} />
-    </div>
-  )
+    return (
+        <div className={styles.container}>
+            <CustomIconDescription element={<OfferMain />} img={rubleImg} />
+            <CustomIconDescription
+                text="Длительность курса 7 дней"
+                img={timeImg}
+            />
+        </div>
+    )
 }
 
 export default IconsSection

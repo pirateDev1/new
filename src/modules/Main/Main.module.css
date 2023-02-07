@@ -1,14 +1,16 @@
 .wrapper {
     min-height: 100vh;
+    min-height: var(--doc-height);
     background-color: var(--base-bg-color);
     color: var(--base-color);
     margin-bottom: -1px;
 }
 
 .container {
+    min-height: 100vh;
+    min-height: var(--doc-height);
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     max-width: 1200px;
     margin: 0 auto;
     height: fit-content;
@@ -39,7 +41,6 @@
 
 .infoContainer {
     margin: 0 1.5rem;
-    padding: 0 1.5em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -65,6 +66,10 @@
 }
 
 @media (min-width: 481px) {
+    .wrapper {
+        min-height: 0;
+    }
+
     .container {
         min-height: 0;
     }

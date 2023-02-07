@@ -12,7 +12,7 @@ export default function Education() {
                     <span className="accent-primary">7 дней</span>
                 </h2>
                 <EducationList />
-                <CtaButton className={styles.btn}>Записаться</CtaButton>
+                <CtaButton className={styles.btn}>Записаться бесплатно</CtaButton>
             </div>
         </div>
     )

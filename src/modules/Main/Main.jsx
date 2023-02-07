@@ -39,7 +39,7 @@ function Main() {
                     </div>
                 </div>
                 <div className={styles.btnContainer}>
-                    <CtaButton>Записаться</CtaButton>
+                    <CtaButton>Записаться бесплатно</CtaButton>
                 </div>
             </div>
         </div>

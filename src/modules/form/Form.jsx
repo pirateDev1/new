@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser"
 import styles from "./Form.module.css"
 import { Button } from "modules/common/ui/Button"
 import { GratitudeModal } from "./components/GratitudeModal"
+import { FreeOffer } from "modules/common/components/FreeOffer"
 
 export default function Form() {
     const formRef = useRef()
@@ -121,7 +122,10 @@ export default function Form() {
                                 </p>
                             )}
                         </div>
-                        <Button className={styles.btn}>Записаться</Button>
+                        <div className={styles.formBtn}>
+                            <Button className={styles.btn}>Записаться</Button>
+                            <FreeOffer />
+                        </div>
                     </div>
                 </form>
             </div>

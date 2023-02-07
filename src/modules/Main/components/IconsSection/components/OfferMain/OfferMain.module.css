@@ -10,7 +10,7 @@
     background-image: linear-gradient(
         135deg,
         var(--primary-color) 0%,
-        var(--secondary-color) 40%,
+        var(--secondary-color) 5%,
         var(--secondary-color) 100%
     );
     background-size: 100%;

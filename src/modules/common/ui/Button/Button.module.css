@@ -10,10 +10,10 @@
 }
 
 .filled {
-  border: 1px solid var(--primary-color);
-  color: var(--btn-text);
-  background-color: var(--primary-color);
-  transition: all 0.2s ease;
+    border-color: none;
+    color: var(--btn-text);
+    background-color: var(--primary-color);
+    transition: all 0.2s ease;
 }
 
 .outlined {
@@ -23,15 +23,10 @@
 }
 
 .filled:hover {
-  background-color: var(--hover-btn-color);
-  border-color: var(--hover-btn-color);
-  color: var(--btn-text);
-}
-
-.outlined:hover {
-  border-color: var(--hover-btn-color);
-  background-color: var(--hover-btn-color);
-  color: var(--btn-text);
+    border-color: none;
+    color: var(--btn-text);
+    background-color: var(--gradient-bg);
+    background-image: var(--gradient-color);
 }
 
 .text {

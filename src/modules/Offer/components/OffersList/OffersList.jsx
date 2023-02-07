@@ -4,22 +4,22 @@ import { CustomIconDescription } from "modules/common/components/CustomIconDescr
 import { offersList } from "./data"
 
 function OffersList() {
-    return (
-        <ul className={styles.list}>
-            {offersList.map(item => {
-                const { id, text, img } = item
-                return (
-                    <CustomIconDescription
-                        key={id}
-                        text={text}
-                        img={img}
-                        wrapperClassName={styles[`wrapper${id}`]}
-                        textClassName={styles.text}
-                    />
-                )
-            })}
-        </ul>
-    )
+  return (
+    <ul className={styles.list}>
+      {offersList.map(item => {
+        const { id, text, img } = item
+        return (
+          <CustomIconDescription
+            key={id}
+            text={text}
+            img={img}
+            wrapperClassName={styles[`wrapper${id}`]}
+            textClassName={styles.text}
+          />
+        )
+      })}
+    </ul>
+  )
 }
 
 export default OffersList

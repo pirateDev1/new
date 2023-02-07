@@ -2,7 +2,7 @@
     "name": "1",
     "version": "0.1.0",
     "private": false,
-    "homepage": "https://pirateDev1.github.io/new",
+    "homepage": "https://piratedev1.github.io/new/",
     "dependencies": {
         "@emailjs/browser": "^3.10.0",
         "@testing-library/jest-dom": "^5.16.5",

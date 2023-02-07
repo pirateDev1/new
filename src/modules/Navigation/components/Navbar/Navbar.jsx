@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
         <div className={styles.container}>
             <NavigationList />
-            <CtaButton className={styles.btn}>Заказать</CtaButton>
+            <CtaButton className={styles.btn}>Записаться</CtaButton>
         </div>
     )
 }

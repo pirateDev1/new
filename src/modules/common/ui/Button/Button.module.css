@@ -1,18 +1,27 @@
 .btn {
-    width: 100%;
-    max-width: 350px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: 500;
-    cursor: pointer;
-    font-family: inherit;
+  width: 100%;
+  max-width: 350px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .filled {
-    border: 1px solid var(--primary-color);
+    border-color: none;
     color: var(--btn-text);
     background-color: var(--primary-color);
+    background-image: none;
+    transition: all 1s ease;
+}
+
+.filled:hover {
+    border-color: none;
+    color: var(--btn-text);
+    background-color: var(--gradient-bg);
+    background-image: var(--gradient-color);
 }
 
 .outlined {
@@ -21,24 +30,12 @@
     background-color: inherit;
 }
 
-.filled:hover {
-    background-color: var(--hover-btn-color);
-    border-color: var(--hover-btn-color);
-    color: var(--btn-text);
-}
-
-.outlined:hover {
-    border-color: var(--hover-btn-color);
-    background-color: var(--hover-btn-color);
-    color: var(--btn-text);
-}
-
 .text {
-    border: none;
-    color: var(--base-color);
-    background-color: transparent;
+  border: none;
+  color: var(--base-color);
+  background-color: transparent;
 }
 
 .text:hover {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }

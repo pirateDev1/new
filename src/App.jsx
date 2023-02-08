@@ -8,17 +8,17 @@ import { Footer } from "modules/Footer"
 import { Offer } from "modules/Offer"
 
 function App() {
-  return (
-    <div>
-      <Main />
-      <Education />
-      <Staff />
-      <Offer />
-      <Reviews />
-      <Form />
-      <Footer />
-    </div>
-  )
+    return (
+        <div>
+            <Main />
+            <Education />
+            <Staff />
+            <Offer />
+            <Reviews />
+            <Form />
+            <Footer />
+        </div>
+    )
 }
 
 export default App

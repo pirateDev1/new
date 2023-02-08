@@ -8,6 +8,9 @@
     cursor: pointer;
     font-family: inherit;
     position: relative;
+}
+
+.btn:focus {
     outline: none;
 }
 

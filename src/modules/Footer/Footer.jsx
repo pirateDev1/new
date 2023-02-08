@@ -1,7 +1,6 @@
 import React from "react"
 import styles from "./Footer.module.css"
 import { Logo } from "modules/common/components/Logo"
-import { ScrollToTopBtn } from "modules/common/components/ScrollToTopBtn"
 
 export default function Footer() {
   return (
@@ -17,7 +16,6 @@ export default function Footer() {
           2018 - 2023 © cryptovision GmbH, Москва, Краснопресненская набережная
           10, этаж 11, помещ. 1648В
         </p>
-        <ScrollToTopBtn />
       </div>
     </footer>
   )

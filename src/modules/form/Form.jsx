@@ -20,7 +20,9 @@ export default function Form() {
     const [formContact, setFormContact] = useState(false)
 
     useEffect(() => {
-        document.querySelector("#nameInput").focus({ preventScroll: true })
+        setTimeout(() => {
+            document.querySelector("#nameInput").focus({ preventScroll: true })
+        }, 100)
     }, [formContact])
 
     useEffect(() => {

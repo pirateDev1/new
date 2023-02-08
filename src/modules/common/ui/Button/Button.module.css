@@ -7,12 +7,49 @@
     font-weight: 500;
     cursor: pointer;
     font-family: inherit;
+    position: relative;
+    border: none;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.gradient {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    background: var(--gradient-bg);
+    background: var(--gradient-color);
+    opacity: 0;
+    transition: all 0.2s ease;
+    z-index: 2;
+}
+
+.gradient:hover {
+    opacity: 1;
 }
 
 .filled {
-    border: 1px solid var(--primary-color);
+    border-color: none;
     color: var(--btn-text);
     background-color: var(--primary-color);
+    background-image: none;
+}
+
+.filled:hover {
+    border-color: none;
+    color: var(--btn-text);
+}
+
+.text {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .outlined {
@@ -21,24 +58,12 @@
     background-color: inherit;
 }
 
-.filled:hover {
-    background-color: var(--hover-btn-color);
-    border-color: var(--hover-btn-color);
-    color: var(--btn-text);
-}
-
-.outlined:hover {
-    border-color: var(--hover-btn-color);
-    background-color: var(--hover-btn-color);
-    color: var(--btn-text);
-}
-
-.text {
+.textBtn {
     border: none;
     color: var(--base-color);
     background-color: transparent;
 }
 
-.text:hover {
+.textBtn:hover {
     color: var(--secondary-color);
 }

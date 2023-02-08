@@ -1,0 +1,24 @@
+.text {
+    max-width: 150px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
+.normalText {
+    font-size: 18px;
+    font-weight: var(--fw-mid);
+    background-color: var(--gradient-bg);
+    background-image: var(--gradient-color);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.price {
+    color: orangered;
+    text-decoration: line-through;
+}

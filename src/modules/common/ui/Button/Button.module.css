@@ -8,6 +8,7 @@
     cursor: pointer;
     font-family: inherit;
     position: relative;
+    border: none;
 }
 
 .btn:focus {

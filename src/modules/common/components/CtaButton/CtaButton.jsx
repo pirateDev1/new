@@ -3,9 +3,7 @@ import React from "react"
 
 function CtaButton({ children, className, variant, onClick = null, ...props }) {
     function clickHandler(e) {
-        document.querySelector("#form").scrollIntoView()
-        document.querySelector("#nameInput").focus({ preventScroll: true })
-
+        document.querySelector("#form").scrollIntoView({ behavior: "smooth" })
         onClick && onClick(e)
     }
     return (

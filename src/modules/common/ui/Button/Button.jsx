@@ -11,8 +11,8 @@ export default function Button({ children, variant, className, ...props }) {
         case "outlined":
             btnVar = "outlined"
             break
-        case "text":
-            btnVar = "text"
+        case "textBtn":
+            btnVar = "textBtn"
             break
         default:
             btnVar = "filled"
@@ -23,6 +23,9 @@ export default function Button({ children, variant, className, ...props }) {
             className={`${styles.btn} ${styles[btnVar]} ${className}`}
             {...props}
         >
+            <div className={styles.gradient}>
+                {<p className={styles.text}>{children}</p>}
+            </div>
             {children}
         </button>
     )

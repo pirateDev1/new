@@ -1,12 +1,31 @@
 .btn {
-  width: 100%;
-  max-width: 350px;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 20px;
-  font-weight: 500;
-  cursor: pointer;
-  font-family: inherit;
+    width: 100%;
+    max-width: 350px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: inherit;
+    position: relative;
+}
+
+.gradient {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    background: var(--gradient-bg);
+    background: var(--gradient-color);
+    opacity: 0;
+    transition: all 0.2s ease;
+    z-index: 2;
+}
+
+.gradient:hover {
+    opacity: 1;
 }
 
 .filled {
@@ -14,14 +33,18 @@
     color: var(--btn-text);
     background-color: var(--primary-color);
     background-image: none;
-    transition: all 1s ease;
 }
 
 .filled:hover {
     border-color: none;
     color: var(--btn-text);
-    background-color: var(--gradient-bg);
-    background-image: var(--gradient-color);
+}
+
+.text {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .outlined {
@@ -30,12 +53,12 @@
     background-color: inherit;
 }
 
-.text {
-  border: none;
-  color: var(--base-color);
-  background-color: transparent;
+.textBtn {
+    border: none;
+    color: var(--base-color);
+    background-color: transparent;
 }
 
-.text:hover {
-  color: var(--secondary-color);
+.textBtn:hover {
+    color: var(--secondary-color);
 }

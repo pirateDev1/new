@@ -4,18 +4,12 @@ import { CustomIconDescription } from "modules/common/components/CustomIconDescr
 import { rubleImg, timeImg } from "assets/pictures/main"
 
 function IconsSection() {
-    return (
-        <div className={styles.container}>
-            <CustomIconDescription
-                text="Бесплатно до конца февраля"
-                img={rubleImg}
-            />
-            <CustomIconDescription
-                text="Длительность курса 7 дней"
-                img={timeImg}
-            />
-        </div>
-    )
+  return (
+    <div className={styles.container}>
+      <CustomIconDescription text="Бесплатно до конца февраля" img={rubleImg} />
+      <CustomIconDescription text="Длительность курса 7 дней" img={timeImg} />
+    </div>
+  )
 }
 
 export default IconsSection

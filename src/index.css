@@ -1,101 +1,101 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 a:link,
 a:visited,
 a:hover,
 a:active {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 html {
-  scroll-behavior: smooth;
-  -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 :root {
-  --ff-primary: "Montserrat";
+    --ff-primary: "Montserrat";
 
-  --fw-reg: 400;
-  --fw-mid: 500;
-  --fw-bold: 700;
+    --fw-reg: 400;
+    --fw-mid: 500;
+    --fw-bold: 700;
 
-  --base-color: #fff;
-  --base-bg-color: #0b0b22;
-  --primary-color: #11bbff;
-  --secondary-color: #00dd99;
-  --btn-text: #0b0b22;
-  --hover-btn-color: #00dd99;
+    --base-color: #fff;
+    --base-bg-color: #0b0b22;
+    --primary-color: #11bbff;
+    --secondary-color: #00dd99;
+    --btn-text: #0b0b22;
+    --hover-btn-color: #00dd99;
 
-  --gradient-bg: rgb(17, 187, 255);
-  --gradient-color: linear-gradient(
-    135deg,
-    rgba(17, 187, 255, 1) 0%,
-    rgba(0, 221, 153, 1) 43%,
-    rgba(5, 211, 182, 1) 100%
-  );
+    --gradient-bg: rgb(17, 187, 255);
+    --gradient-color: linear-gradient(
+        135deg,
+        rgba(17, 187, 255, 1) 0%,
+        rgba(0, 221, 153, 1) 43%,
+        rgba(5, 211, 182, 1) 100%
+    );
 
-  --modal-text: #000;
-  --modal-bg: #fff;
+    --modal-text: #000;
+    --modal-bg: #fff;
 
-  --fs-h1: 2rem;
-  --fs-h2: 1.5rem;
-  --fs-h3: 1.17rem;
-  --fs-h4: 1rem;
-  --fs-h5: 0.83rem;
-  --big-text: 1.625rem;
-  --middle-text: 0.875rem;
-  --small-text: 0.75rem;
+    --fs-h1: 2rem;
+    --fs-h2: 1.5rem;
+    --fs-h3: 1.17rem;
+    --fs-h4: 1rem;
+    --fs-h5: 0.83rem;
+    --big-text: 1.625rem;
+    --middle-text: 0.875rem;
+    --small-text: 0.75rem;
 
-  --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
-  --fs-xl: 32px;
+    --fs-xl: 32px;
 }
 
 @media (min-width: 481px) {
-  :root {
-    --fs-xl: 38px;
-  }
+    :root {
+        --fs-xl: 38px;
+    }
 }
 
 @media (min-width: 651px) {
-  :root {
-    --fs-xl: 44px;
-  }
+    :root {
+        --fs-xl: 44px;
+    }
 }
 
 @media (min-width: 1025px) {
-  :root {
-    --fs-xl: 54px;
-  }
+    :root {
+        --fs-xl: 54px;
+    }
 }
 
 @media (min-width: 1201px) {
-  :root {
-    --fs-xl: 60px;
-  }
+    :root {
+        --fs-xl: 60px;
+    }
 }
 
 span.accent-primary {
-  color: var(--primary-color);
+    color: var(--primary-color);
 }
 
 span.accent-secondary {
-  color: var(--secondary-color);
+    color: var(--secondary-color);
 }
 
 span.bold {
-  font-weight: bold;
+    font-weight: bold;
 }
